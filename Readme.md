@@ -10,6 +10,7 @@
 Example: 01. GitHub上README.md教程 http://blog.csdn.net/kaitiren/article/details/38513715 (转@作者kaitiren)<br>
 <br>
 #####01基础知识<br>
+01.https://github.com/CordovaCn/CordovaCn/blob/master/01%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86(Basic%20Knowledge)/01.What-is-Cordova.md (@作者ShangXinbo)
 <br>
 #####02插件使用<br>
 <br>
