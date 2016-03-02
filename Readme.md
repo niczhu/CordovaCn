@@ -10,13 +10,15 @@
 Example: 01. GitHub上README.md教程 http://blog.csdn.net/kaitiren/article/details/38513715 (转@作者kaitiren)<br>
 <br>
 #####01基础知识<br>
-01.https://github.com/CordovaCn/CordovaCn/blob/master/01%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86(Basic%20Knowledge)/01.What-is-Cordova.md (@作者ShangXinbo)
+01.Cordova介绍: <br>
+https://github.com/CordovaCn/CordovaCn/blob/master/01%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86(Basic%20Knowledge)/01.What-is-Cordova.md (@作者ShangXinbo)<br>
 <br>
 #####02插件使用<br>
 <br>
 #####03代码分享<br>
-01.https://github.com/CordovaCn/CordovaCn/tree/master/03%E4%BB%A3%E7%A0%81%E5%88%86%E4%BA%AB(Share%20Demo)/Empty-Ionic-Demo 
-(@作者xingchenxuanfeng )
+01.基于Ionic的Cordova工程Demo:<br>
+https://github.com/CordovaCn/CordovaCn/tree/master/03%E4%BB%A3%E7%A0%81%E5%88%86%E4%BA%AB(Share%20Demo)/Empty-Ionic-Demo 
+(@作者xingchenxuanfeng )<br>
 <br>
 ----------------------------history-------------------------<br>
 20160302:Create by ryouaki<br>
