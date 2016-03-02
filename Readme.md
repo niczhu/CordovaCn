@@ -7,15 +7,14 @@
 #####所有站内信息一定要提交候在本页添加一个link到你对应的*.md文件上或者是Demo首页<br>
 #####本站内容提交方式    标题 link(@作者XXX)<br>
 #####本站外内容提交方式  标题 link(转@作者XXX)<br>
-
-
-01. GitHub上README.md教程 http://blog.csdn.net/kaitiren/article/details/38513715(转@作者kaitiren)<br>
+Example: 01. GitHub上README.md教程 http://blog.csdn.net/kaitiren/article/details/38513715(转@作者kaitiren)<br>
 <br>
 #####01基础知识<br>
 <br>
 #####02插件使用<br>
 <br>
 #####03代码分享<br>
+01.https://github.com/CordovaCn/CordovaCn/tree/master/03%E4%BB%A3%E7%A0%81%E5%88%86%E4%BA%AB(Share%20Demo)/Empty-Ionic-Demo(@作者xingchenxuanfeng )
 <br>
-----------------------------history-------------------------
-20160302:Create by ryouaki
+----------------------------history-------------------------<br>
+20160302:Create by ryouaki<br>
