@@ -7,7 +7,7 @@
 #####所有站内信息一定要提交候在本页添加一个link到你对应的*.md文件上或者是Demo首页<br>
 #####本站内容提交方式    标题 link(@作者XXX)<br>
 #####本站外内容提交方式  标题 link(转@作者XXX)<br>
-Example: 01. GitHub上README.md教程 http://blog.csdn.net/kaitiren/article/details/38513715(转@作者kaitiren)<br>
+Example: 01. GitHub上README.md教程 http://blog.csdn.net/kaitiren/article/details/38513715 (转@作者kaitiren)<br>
 <br>
 #####01基础知识<br>
 <br>
