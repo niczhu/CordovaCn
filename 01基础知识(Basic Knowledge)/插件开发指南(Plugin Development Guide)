@@ -1,0 +1,135 @@
+翻译自cordova官方文档：
+https://cordova.apache.org/docs/en/latest/guide/hybrid/plugins/index.html（如果需要链接，请自行对照原文链接进行查看）
+
+插件开发指南
+
+插件是一种可以帮助app在其运行的原生平台上通过cordova webview与注入的代码进行交流的包。插件打破了本身web架构的app和设备以及平台元素交互的壁垒。所有的主要的cordova的接口都是以插件形式实现的，另外还有好多像条码扫描，NFC或者设计日历界面等其他的插件。目前我们已经有了一系列的可获取的插件列表。
+
+插件提供了一个JavaScript接口可以支持与多个平台相应的代码进行交互的方式。本质上，这通过一个普通的JavaScript接口隐藏了背后的各种原生代码实现。
+
+本节介绍一个简单地echo插件，通过JavaScript传递了一个字符串到平台的后端，然后我们就可以通过这个字符串实现复杂的功能。本节讨论了基本插件的结构和对外的JavaScript接口。对于每个该插件对应的原生接口，请参阅本节末的列表。
+
+另外，如果想写插件，最好的方式就是研究已有插件的实现。
+
+构建插件
+
+应用开发者可以通过命令行:plugin add命令（请参阅命令行文档）来为工程添加一个插件。该命令的参数是包含插件代码一个Git仓库的URL。以下是一个扩展了cordova设备信息的API的实例:
+
+ $ cordova plugin add https://git-wip-us.apache.org/repos/asf/cordova-plugin-device.git
+
+本插件库必须配置一个顶级的plugin.xml配置文件。在插件配置说明中详细介绍了多种方式来对该文件进行配置。以下Device插件的缩略版提供了关于配置文件的一个简单的例子：
+
+ <?xml version="1.0" encoding="UTF-8"?>
+    <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+            id="cordova-plugin-device" version="0.2.3">
+        <name>Device</name>
+        <description>Cordova Device Plugin</description>
+        <license>Apache 2.0</license>
+        <keywords>cordova,device</keywords>
+        <js-module src="www/device.js" name="device">
+            <clobbers target="device" />
+        </js-module>
+        <platform name="ios">
+            <config-file target="config.xml" parent="/*">
+                <feature name="Device">
+                    <param name="ios-package" value="CDVDevice"/>
+                </feature>
+            </config-file>
+            <header-file src="src/ios/CDVDevice.h" />
+            <source-file src="src/ios/CDVDevice.m" />
+        </platform>
+    </plugin>
+
+顶层插件标签元素id使用了一种反向域的方式来确认是用户添加的插件。js-module标签标示JavaScript接口的路径。platform标签标示对应的原生代码，本例中是IOS平台。config-file标签标示能够使平台能够感知额外的代码库的config.xml文件。head-file和source-file标签标示了库的组件文件的位置。
+
+验证插件
+
+你可以用plugman工具来检测插件是否已经完成针对每个平台的安装。安装plugman使用下面的node命令：
+
+    $ npm install -g plugman
+
+你需要一个有效的app的源目录，比如在命令行文档中介绍的默认使用CLI生成的顶级www目录。确保应用程序的index.html主页引用插件的JavaScript接口的名称在相同的源路径中：
+
+   <script src="myplugin.js"></script>
+
+然后运行下面的命令来测试iOS的依赖关系是否正确加载：（示例）
+
+   $ plugman install --platform ios --project /path/to/my/project/www --plugin /path/to/my/plugin
+
+有关plugman的详细说明，请参见使用Plugman管理插件。有关如何实际调试插件的信息，请参阅本页面底部列
+出的每个平台的原生接口介绍。
+
+JavaScript接口
+
+JavaScript提供了一个前置接口，使得他成为插件的最重要的部分。你可以以你喜欢的方式构建你的JavaScript插件，但是你必须调用cordova.exec来进行和原生的交互，使用下面的语法：
+
+    cordova.exec(function(winParam) {},
+                 function(error) {},
+                 "service",
+                 "action",
+                 ["firstArgument", "secondArgument", 42, false]);
+
+下面是每个参数如何工作的说明：
+
+function(winParam) {}：一个成功回调函数。假设你的调用成功完成，该功能与您传递给它的任何参数一起执行。
+
+function(error) {}: 错误回调方法。如果操作没有成功执行，这个方法会带着错误参数一起执行。
+
+"service": 原生调用的服务名。会关联到原生类，更多信息在下面的原生指导列表中。
+
+"action": 这个是调用原生的行为明。会关联到原生的方法。请参阅下面的原生指导列表。
+
+[/* arguments */]: 一个传递到原生环境的数组参数。
+
+JavaScript例子
+
+这个例子展示了一种扩展Javascript接口的方式：
+
+    window.echo = function(str, callback) {
+        cordova.exec(callback, function(err) {
+            callback('Nothing to echo.');
+        }, "Echo", "echo", [str]);
+    };
+
+在这个例子中，插件关联了一个窗口对象作为新的echo方法。这样的话插件用户的调用方式为：
+
+    window.echo("echome", function(echoValue) {
+        alert(echoValue == "echome"); // should alert true.
+    });
+
+然后看cordova.exec方法的最后三个参数。首先调用Echo服务，一个类名。第二个是请求echo方法，即类中的方法。第三个是包含echo字符串的一个数组，它是window.echo函数的所传递的第一个参数。
+
+传递到EXEC的成功回调仅仅是使用window.echo成功回调函数一个参考（如上面例子中就是执行alert(echoValue == "echome");来判断是否成功回调）。如果本机平台触发错误回调，这样也只是调用成功回调并传递一个默认的字符串'Nothing to echo.'。
+
+原生接口
+
+一旦你定义好插件的JavaScript方法，你需要至少一个原生接口来完成整个流程。每个平台的详细内容，每个建立在简单的Echo插件上面的例子如下：
+
+Amazon Fire OS Plugins（链接：）
+Android Plugins
+iOS Plugins
+BlackBerry 10 Plugins
+Windows Phone 8 Plugins
+Windows Plugins
+
+发布插件
+
+一旦你开发了一个插件，并且你想发布分享到社区。你可以发布你的插件到任意的基于npmjs-的注册表。但是推荐的方式是NPM注册表。请阅读我们的发布到NPM的说明：
+
+注意：Cordova插件注册表正在变动为只读状态。publish/unpublish的命令已经从plugman中移除，所以你需要使用相关的npm命令。
+
+其他开发者可以使用plugman或者Cordova CLI来自动安装你的插件。（每一个开发过程的详细信息，请参阅 Using Plugman to Manage Plugins和The Command-Line Interface.)
+
+发布插件到NPM注册表，你需要使用以下步骤：
+
+为你的插件创建package.json文件：
+
+	$ plugman createpackagejson /path/to/your/plugin
+	publish it:
+
+	$ npm adduser # that is if you don't have an account yet
+	$ npm publish /path/to/your/plugin
+
+以上!
+
+运行plugman --help可以列出了其他可用的基于注册表的命令。
