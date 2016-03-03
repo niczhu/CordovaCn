@@ -29,6 +29,6 @@ Example: 01.[GitHub上README.md教程](http://blog.csdn.net/kaitiren/article/det
 ----------------------------history-------------------------<br>
 20160302:Create by ryouaki<br>
 20160302:Add [04常见问题及解决办法] by ryouaki<br>
-20160303:Add [01/02Cordova目前对各个平台的支持] by ryouaki<br>
+20160303:Add [01/02Platform Support(平台支持)] by ryouaki<br>
 20160303:Add [01/05Cordova iOS4.1.0 Released] by ryouaki<br>
 20160303:Add [01/09Plugin Development Guide(插件开发指南)] by kebenxiaoming<br>
