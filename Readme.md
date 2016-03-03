@@ -3,6 +3,7 @@
 ###02插件使用 主要提供各种插件的使用说明类文章，比如插件Readme的翻译以及api使用经验<br>
 ###03代码分享 大家分享自己的各种有意义和复用价值的代码(如果是公司生产级别代码请注意知识产权保护)<br>
 ###04常见问题及解决办法 大家分享在Cordova开发过程中遇到的各种坑以及解决办法<br>
+###官方博文(Blog from Cordova) 跟踪官方更新blog，即使了解最新信息<br>
 ###imgs     用于提交Readme关联的图片<br>
 <br>
 ###所有站内信息一定要提交候在本页添加一个link到你对应的*.md文件上或者是Demo首页<br>
@@ -20,6 +21,8 @@ Example: 01.[GitHub上README.md教程](http://blog.csdn.net/kaitiren/article/det
 01.[基于Ionic的Cordova工程Demo](https://github.com/CordovaCn/CordovaCn/tree/master/03%E4%BB%A3%E7%A0%81%E5%88%86%E4%BA%AB(Share%20Demo)/Empty-Ionic-Demo) (@作者xingchenxuanfeng )<br>
 <br>
 #04常见问题及解决办法<br>
+<br>
+#05官方博文(Blog from Cordova)<br>
 <br>
 ----------------------------history-------------------------<br>
 20160302:Create by ryouaki<br>
