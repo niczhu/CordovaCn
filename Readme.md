@@ -13,8 +13,8 @@ Example: 01.[GitHub上README.md教程](http://blog.csdn.net/kaitiren/article/det
 <br>
 #01基础知识<br>
 01.[Cordova介绍](https://github.com/CordovaCn/CordovaCn/blob/master/01%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86(Basic%20Knowledge)/01.What-is-Cordova.md) (@作者ShangXinbo)<br>
-01.[Cordova对平台支持情况](https://github.com/CordovaCn/CordovaCn/blob/master/01%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86(Basic%20Knowledge)/02.Platform-supports.md) (@作者Ryouaki)<br>
-s1:<a href="https://github.com/CordovaCn/CordovaCn/blob/master/01%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86(Basic%20Knowledge)/s1:%E6%8F%92%E4%BB%B6%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97(Plugin%20Development%20Guide)">插件开发指南(Plugin Development Guide)</a> (@作者kebenxiaoming)
+02.[Cordova对平台支持情况](https://github.com/CordovaCn/CordovaCn/blob/master/01%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86(Basic%20Knowledge)/02.Platform-supports.md) (@作者Ryouaki)<br>
+09.[Plugin Development Guide(插件开发指南)](https://github.com/CordovaCn/CordovaCn/blob/master/01%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86(Basic%20Knowledge)/09.Plugin%20Development%20Guide(%E6%8F%92%E4%BB%B6%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97).md) (@作者kebenxiaoming)
 <br>
 #02插件使用<br>
 <br>
@@ -31,3 +31,4 @@ s1:<a href="https://github.com/CordovaCn/CordovaCn/blob/master/01%E5%9F%BA%E7%A1
 20160302:Add [04常见问题及解决办法] by ryouaki<br>
 20160303:Add [01/02Cordova目前对各个平台的支持] by ryouaki<br>
 20160303:Add [01/05Cordova iOS4.1.0 Released] by ryouaki<br>
+20160303:Add [01/09Plugin Development Guide(插件开发指南)] by kebenxiaoming<br>
