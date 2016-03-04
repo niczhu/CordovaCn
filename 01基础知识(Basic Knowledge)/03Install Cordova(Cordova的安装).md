@@ -2,7 +2,7 @@
 https://cordova.apache.org/#getstarted<br>
 
 ###1. 安装Cordova
-Cordova命令行工具是通过运行在Nodejs的NPM工具安装的,通过后面的添加平台相关内容安装对应的平台依赖.
+Cordova是通过运行在Nodejs的NPM工具安装的,通过后面的添加平台相关内容安装对应的平台依赖.
 打开命令行窗口输入命令:
 ```sh
 $ npm install -g cordova
