@@ -1,38 +1,25 @@
 翻译自cordova官方文档（如果需要链接，请自行对照原文链接进行查看）： <br>
 https://cordova.apache.org/#getstarted<br>
 
-###1 安装Cordova
-Cordova的命令行工具是运行在Nodejs上的,通过npm安装,后面的platform(平台)相关的部分会介绍如何安装对应的平台依赖<br>
-打开一个命令行窗口,输入下面的命令:
+###1. 安装Cordova
+Cordova命令行工具是通过运行在Nodejs的NPM工具安装的,通过后面的添加平台相关内容安装对应的平台依赖.
+打开命令行窗口输入命令:
 ```sh
-$ npm install -g cordova 
+$ npm install -g cordova
 ```
-###2 创建Cordova项目
-通过Cordova的指令工具创建一个空的Cordova project.
-Create a blank Cordova project using the command-line tool. 
-Navigate to the directory where you wish to create your project and type cordova create <path>.
 
-For a complete set of options, type cordova help create.
+###2 创建Cordova工程
+通过Cordova的命令行工具创建一个Cordova空工程,进入到你希望的工程文件夹根目录输入如下命令:
 ```sh
-$ cordova create MyApp 
+$ cordova create MyApp
 ```
-3 Add a platform
-After creating a Cordova project, navigate to the project directory. From the project directory, you need to add a platform for which you want to build your app.
+获取更多帮助信息可以输入 [cordova help create] 指令<br>
 
-To add a platform, type cordova platform add <platform name>.
-
-For a complete list of platforms you can add, run cordova platform.
-
-Copy
+###3 添加平台(指创建对应的手机环境)
+在创建完Cordova项目以后,进入到项目根目录,在此通过下面的指令添加你需要生成对应的app的平台.
+输入 [cordova platform add <platform name>]添加对应的app平台,而后通过[cordova run <platform name>]运行你的app.
 ```sh
 $ cd MyApp
 
-$ cordova platform add browser
+$ cordova platform add browser // 在后面Command cli章节会详细介绍常用指令的使用
 ```
-
-cd MyApp cordova platform add browser
-4 Run your app
-From the command line, run cordova run <platform name>.
-
-Copy $ cordova run browser cordova run browser
-5 Common next steps
