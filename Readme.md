@@ -14,7 +14,7 @@ Example: 01.[GitHub上README.md教程](http://blog.csdn.net/kaitiren/article/det
 #01基础知识<br>
 01.[Cordova介绍](https://github.com/CordovaCn/CordovaCn/blob/master/01%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86(Basic%20Knowledge)/01.What-is-Cordova.md) (@作者ShangXinbo)<br>
 02.[Platform Support(平台支持)](https://github.com/CordovaCn/CordovaCn/blob/master/01%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86(Basic%20Knowledge)/02.Platform%20Supports(%E5%B9%B3%E5%8F%B0%E6%94%AF%E6%8C%81).md) (@作者Ryouaki)<br>
-03.[Install Cordova(Cordova的安装待)]<br>
+03.[Install Cordova(Cordova的安装)](https://github.com/CordovaCn/CordovaCn/blob/master/01%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86(Basic%20Knowledge)/03Install%20Cordova(Cordova%E7%9A%84%E5%AE%89%E8%A3%85).md) (@作者Ryouaki)<br>
 04.[Cordova-Cli(Cordova命令行说明待)]<br>
 05.[config.xml Guide(config.xml指南待)]<br>
 06.[Icons&Splashscreen(Icons&Splashscreen待)]<br>
