@@ -22,6 +22,7 @@ Example: 01.[GitHub上README.md教程](http://blog.csdn.net/kaitiren/article/det
 08.[plugin.xml Guide(plugin.xml指南待)]<br>
 09.[Plugin Development Guide(插件开发指南)](https://github.com/CordovaCn/CordovaCn/blob/master/01%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86(Basic%20Knowledge)/09.Plugin%20Development%20Guide(%E6%8F%92%E4%BB%B6%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97).md) (@作者kebenxiaoming)
 <br>
+10.<a href="https://github.com/CordovaCn/CordovaCn/blob/master/01%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86(Basic%20Knowledge)/10.Android%20Plugins(Android%E6%8F%92%E4%BB%B6%E5%BC%80%E5%8F%91)">Android Plugins(Android插件开发)</a> (@作者kebenxiaoming)
 #02插件使用<br>
 <br>
 #03代码分享<br>

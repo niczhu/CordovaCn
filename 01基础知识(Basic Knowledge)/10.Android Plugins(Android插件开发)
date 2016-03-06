@@ -1,0 +1,402 @@
+Android 插件开发
+原文地址：https://cordova.apache.org/docs/en/latest/guide/platforms/android/plugin.html
+Android Plugins
+
+
+本节提供了如何实现Android平台上的本机插件代码的详细信息。阅读此之前，请参阅应用程序插件的结构及其JavaScript接口的概述。webview与原生平台和后台的交互。另外也可以在CordovaPlugin.java（链接）中获得更多信息。
+
+
+Android插件基于由android的webview来联系的Cordova-Android系统。插件被config.xml文件中的类映射来表示。插件包括一个继承自CordovaPlugin类，并重写其execute方法的java类。作为最佳实践，该插件还应该处理[暂停]（../../../cordova/events/events.pause.html）和[恢复]（../../../cordova/events/events.resume.html）事件，在插件之间传递任何消息一起。长时间运行的请求，后台活动，如媒体播放功能，监听器，或读取内部状态的插件应该同时实现onReset()方法。它会在WebView打开新页面或刷新，即重新加载的JavaScript时执行。
+
+
+插件类映射
+
+
+插件的JavaScript方法使用cordova.exec方法的示例如下：
+
+
+   exec(<successFunction>, <failFunction>, <service>, <action>, [<args>]);
+
+
+这个方法可以从WebView中发起一个请求到Android原生端，然后有效的调用service类中的方法，同时可以传递一个名字如上例的args的数组参数。
+
+
+无论您是否将插件如Java文件或作为自身的一个jar文件分发，该插件必须Cordova-Android应用程序的res/xml/ config.xml文件中指定。请参阅应用插件如何使用plugin.xml文件注入此功能元素的详细信息：
+
+
+ <feature name="<service_name>">
+        <param name="android-package" value="<full_name_including_namespace>" />
+ </feature>
+
+
+上面的service_name是JavaScript exec方法调用的service名。其中的参数值是Java类的命名空间标识。否则，插件可能编译，但仍然无法在Cordova中使用。
+
+
+插件初始化和生命周期
+
+
+插件对象的生命周期和对应的WebView相同。但是插件只有在第一次被JavaScript调用应用的时候才会实例化，另外我们也可以在config.xml中设置onload元素为true来实例化。例如：
+
+
+<feature name="Echo">
+    <param name="android-package" value="<full_name_including_namespace>" />
+    <param name="onload" value="true" />
+</feature>
+
+
+当设置onload为true时，插件应该使用自己的启动逻辑initialize方法。
+
+
+@Override
+public void initialize(CordovaInterface cordova, CordovaWebView webView) {
+    super.initialize(cordova, webView);
+    // your init code here
+}
+
+
+写一个Android的Java插件
+
+
+一个JavaScript方法完成一个到原生端的插件请求，并且对应的java插件类在config.xml文件中正确映射，但是真正的Android Java Plugin类长啥样呢。最终的JavaScript的exec方法执行后都会传递到插件类中的execute方法。大部分的execute方法的实现就像下面的样子：
+
+
+  @Override
+    public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
+        if ("beep".equals(action)) {
+            this.beep(args.getLong(0));
+            callbackContext.success();
+            return true;
+        }
+        return false;  // Returning false results in a "MethodNotFound" error.
+  }
+
+
+JavaScript的执行函数action参数对应一个类的私有方法。当捕捉异常并返回错误，这是为清楚起见重要的错误恢复到比赛的JavaScript Java的异常名称尽可能。
+当捕获到异常并且返回错误，很重要的一点是尽可能的保证错误返回到与JavaScript匹配的java错误名的类。
+
+
+Threading
+
+
+插件的JavaScript不在webview界面的主线程中运行，而是在WebCore线程中调用execute方法。如果需要与用户交互，你应该使用以下方式：
+
+
+@Override
+    public boolean execute(String action, JSONArray args, final CallbackContext callbackContext) throws JSONException {
+        if ("beep".equals(action)) {
+            final long duration = args.getLong(0);
+            cordova.getActivity().runOnUiThread(new Runnable() {
+                public void run() {
+                    ...
+                    callbackContext.success(); // Thread-safe.
+                }
+            });
+            return true;
+        }
+        return false;
+    }
+
+
+如果你不需要在主界面线程运行，但使用WebCore线程，使用下面的方式：
+
+
+@Override
+    public boolean execute(String action, JSONArray args, final CallbackContext callbackContext) throws JSONException {
+        if ("beep".equals(action)) {
+            final long duration = args.getLong(0);
+            cordova.getThreadPool().execute(new Runnable() {
+                public void run() {
+                    ...
+                    callbackContext.success(); // Thread-safe.
+                }
+            });
+            return true;
+        }
+        return false;
+    }
+
+
+添加依赖库
+
+
+如果一个插件需要额外的库工作，您可以使用以下方法之一通过config.xml中添加它们：
+
+
+方案A：通过gradle引用，例如：
+
+
+<framework src="com.android.support:support-v4:+" />
+
+
+这是推荐的方法，因为它允许多个插件来指代相同的依赖库，如gson，android-support-V4，google-play-services等，并且这样的话gradle将利用其依赖管理逻辑解决重复的依赖关系。
+
+
+方案B：作为放置一些plugins文件夹的JAR文件，并使用LIB文件，例如：
+
+
+    <lib-file src="src/android/libs/gcm.jar"/>
+
+
+我们建议仅当您确定相关性JAR插件是具体的，不会被其他插件使用时使用此方法，否则，就会出现平台的构建问题。
+
+
+名为Echo的Android插件列子
+
+
+要匹配的JavaScript接口的echo插件在应用中描述的功能，使用plugin.xml中注入一个功能规范本地平台的config.xml文件中：
+
+
+  <platform name="android">
+        <config-file target="config.xml" parent="/*">
+            <feature name="Echo">
+                <param name="android-package" value="org.apache.cordova.plugin.Echo"/>
+            </feature>
+        </config-file>
+    </platform>
+
+
+然后添加以下内容到src/org/apache/cordova/plugin/Echo.java文件中：
+
+
+ package org.apache.cordova.plugin;
+
+
+    import org.apache.cordova.CordovaPlugin;
+    import org.apache.cordova.CallbackContext;
+
+
+    import org.json.JSONArray;
+    import org.json.JSONException;
+    import org.json.JSONObject;
+
+
+    /**
+     * This class echoes a string called from JavaScript.
+     */
+    public class Echo extends CordovaPlugin {
+
+
+        @Override
+        public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
+            if (action.equals("echo")) {
+                String message = args.getString(0);
+                this.echo(message, callbackContext);
+                return true;
+            }
+            return false;
+        }
+
+
+        private void echo(String message, CallbackContext callbackContext) {
+            if (message != null && message.length() > 0) {
+                callbackContext.success(message);
+            } else {
+                callbackContext.error("Expected one non-empty string argument.");
+            }
+        }
+    }
+
+
+很必要的部分是在继承自CordovaPlugin类的java类中重写execute()方法来接收来自exec()的消息。execute()方法首先会检测action的值，然后根据action的值来判断调用那个方法（上面例子中是传递的echo，就会调用到echo方法）。任何不存在的方法都会返回false并且导致一个INVALID_ACTION的错误，此时就会调用到JavaScript端的error callback方法。
+
+
+接下来，方法检索传递的参数，使用的是args对象的getString方法，指定第一个传递到方法的参数。当参数值传递到私有的echo方法之后，有一个参数检测方法来判断是否是空指针或者空字符串，如果出现空指针或者空字符串就会进到else中调用callbackContext.error()方法激活JavaScript的error callback方法。如果参数验证通过，则会调用callbackContext.success()方法将原来的message参数的值作为参数传递到JavaScript的success callback中
+
+
+android的整合
+
+
+android有个可以允许线程间通信的Intent系统。插件有权访问可以访问运行该应用程序在Android活动的CordovaInterface对象。这是推出一个新的Android Intent所需的上下文。所述CordovaInterface允许插件启动一个Activity，并为Intent返回到应用程序设置回调插件。
+
+
+在Cordova 2.0中，插件不再允许直接访问Context,并且传统的ctx成员也被反对。所有的ctx方法存在在Context中，所以
+getContext()和getActivity方法可以返回所需对象。
+
+
+Android权限
+
+
+Android权限直到最近仍被处理为安装时授权而不是运行时。要使用权限需要在应用中声明使用的权限，并且权限声明要被加入到Android Manifest文件中。这里我们可以通过使用config.xml中注入在AndroidManifest.xml文件中这些权限来完成。例子如下（读取联系人权限声明）：
+
+
+  <config-file target="AndroidManifest.xml" parent="/*">
+        <uses-permission android:name="android.permission.READ_CONTACTS" />
+    </config-file>
+
+
+Android权限（针对Cordova-Android-5.0.x以及更高版本）
+
+
+Android 6.0 "Marshmallow"退出了新的权限模型，使得用户可以在必要时打开和关闭权限。因此Cordova-Android 5.0的重点就是用面向未来的方式来处理权限。
+
+
+需要在运行时处理的权限可以在Android开发者文档中找到。
+
+
+至于插件而言，权限可以通过调用权限的方法，它的签名如下要求：
+
+
+cordova.requestPermission(CordovaPlugin plugin, int requestCode, String permission);
+
+
+为了减少冗长，其标准的做法，这种分配到本地静态变量方式：
+
+
+public static final String READ = Manifest.permission.READ_CONTACTS;
+
+
+这也是标准的定义请求代码的做法，如下：
+
+
+public static final int SEARCH_REQ_CODE = 0;
+
+
+然后，在exec方法，应该检查权限：
+
+
+if(cordova.hasPermission(READ)) {
+        search(executeArgs);
+    }
+    else
+    {
+        getReadPermission(SEARCH_REQ_CODE);
+    }
+
+
+在这种情况下，我们只需要如下方式获取请求许可：
+
+
+protected void getReadPermission(int requestCode)
+{
+    cordova.requestPermission(this, requestCode, READ);
+}
+
+
+这将调用activity，并导致一个提示出现要求的权限。一旦用户允许使用权限，结果必须用每一个插件应该重写的onRequestPermissionsResult方法处理。这方面的例子如下：
+
+
+public void onRequestPermissionResult(int requestCode, String[] permissions,
+                                         int[] grantResults) throws JSONException
+{
+    for(int r:grantResults)
+    {
+        if(r == PackageManager.PERMISSION_DENIED)
+        {
+            this.callbackContext.sendPluginResult(new PluginResult(PluginResult.Status.ERROR, PERMISSION_DENIED_ERROR));
+            return;
+        }
+    }
+    switch(requestCode)
+    {
+        case SEARCH_REQ_CODE:
+            search(executeArgs);
+            break;
+        case SAVE_REQ_CODE:
+            save(executeArgs);
+            break;
+        case REMOVE_REQ_CODE:
+            remove(executeArgs);
+            break;
+    }
+}
+
+
+
+
+switch语句将根据提示返回的requestCode判断，然后调用case中的方法。应当指出的是如果执行不正确的处理请求权限的提示可堆叠，这一点应被避免。
+
+
+除了要求用于单个权限许可，但也可以通过定义权限数组，就像下面这个地理位置插件完成请求权限的整个组的例子：
+
+
+String [] permissions = { Manifest.permission.ACCESS_COARSE_LOCATION, Manifest.permission.ACCESS_FINE_LOCATION };
+
+
+然后请求许可时，所有需要做的是以下方式：
+
+
+cordova.requestPermissions(this, 0, permissions);
+
+
+这就要求数组中指定所需的权限。这是一个提供可公开访问的权限的数组的好主意，因为这可以使插件作为依赖插件使用，虽然这不是必需的。
+
+
+调试Android插件
+
+
+Android的调试可以使用Eclipse或Android Studio来完成，虽然推荐使用Android Studio。由于Cordova-Android是目前作为一个开源项目和插件都支持源代码预览，就可以像调试一个原生的Android应用程序一样调试Cordova应用程序内的Java代码。
+
+
+启动外部Activity
+
+
+在你得插件想要将Cordova放到后台然后启动新的Activity时，你需要一些特殊的考虑。当Android系统的内存过低时，就会将后台的Activity杀死。这种情况下，Cordova插件的实例也会被销毁。如果你的插件正在等待他打开的活动的结果，随着Cordova Activity被以前台方式调起，一个插件的新实例将会被创建，结果也会被获取到。然而，插件的状态不会自动保存和恢复,这样该插件的CallbackContext将会丢失。所以这里为你的Cordova插件提供了两种方式来处理这两种情况：
+
+
+/**
+ * Called when the Activity is being destroyed (e.g. if a plugin calls out to an
+ * external Activity and the OS kills the CordovaActivity in the background).
+ * The plugin should save its state in this method only if it is awaiting the
+ * result of an external Activity and needs to preserve some information so as
+ * to handle that result; onRestoreStateForActivityResult() will only be called
+ * if the plugin is the recipient of an Activity result
+ *
+ * @return  Bundle containing the state of the plugin or null if state does not
+ *          need to be saved
+ */
+public Bundle onSaveInstanceState() {}
+
+
+/**
+ * Called when a plugin is the recipient of an Activity result after the
+ * CordovaActivity has been destroyed. The Bundle will be the same as the one
+ * the plugin returned in onSaveInstanceState()
+ *
+ * @param state             Bundle containing the state of the plugin
+ * @param callbackContext   Replacement Context to return the plugin result to
+ */
+public void onRestoreStateForActivityResult(Bundle state, CallbackContext callbackContext) {}
+
+
+需要注意的是，如果你的插件启动了一个Activity，这样的话存储必要的状态来处理Activity结果是很重要的。如果Cordova Activity被系统后台杀死，插件的状态也不会保存，除非在你的插件使用CordovaInterface的startActivityForResult（）方法。
+
+
+作为onRestoreStateForActivityResult（）的一部分，你的插件将被传递一个替换的CallbackContext。要判断出这个CallbackContext是不是与Activity被破坏的时候是同一个非常重要。原始回调已经丢失，并且将不会在JavaScript应用被除去。相对的，这种替换的CallbackContext将随着应用程序的恢复而作为resume的一部分恢复并返回结果。恢复事件的负载遵循以下结构：
+
+
+{
+    action: "resume",
+    pendingResult: {
+        pluginServiceName: string,
+        pluginStatus: string,
+        result: any
+    }
+}
+
+
+pluginServiceName:将从您的plugin.xml匹配的name属性
+pluginStatus:将描述传递给CallbackContext的PluginResult状态的字符串。见PluginResult.java的对应插件状态的字符串值
+result:将是插件传递什么结果给CallbackContext（例如字符串，数字，JSON对象等）
+
+
+这个resume的有效参数将被传递到了JavaScript应用已经注册了resume事件的任何回调。这意味着该结果被直接到Cordova应用申请;你的插件将没有机会应用程序接收之前用JavaScript来处理结果。因此，你应该努力使由原生代码尽可能在开启activity时不依赖于任何JavaScript回调返回的结果。
+
+
+一定要明确Cordova应用程序应该如何理解他们在resume事件接受的结果。它是为了Cordova应用程序保持自己的状态，并记住他们要做什么，如果有必要的话还有他们提供什么样的参数。不过，你还是应该清楚地传达pluginStatus值的含义，并明确被返回的作为你的插件API的一部分的结果集的数据的顺序。
+
+
+
+
+启动一个活动的事件的完整序列如下：
+
+
+1、Cordova应用对你的插件发起一个请求
+2、你的插件启动了一个新的Activity。
+3、Adnroid系统销毁Cordova Activity，然后你插件的onSaveInstanceState()方法被调用
+4、用户与Activity互动的Activity结束
+5、Crodova Activity被重新创建，然后活动结果被接收onRestoreStateForActivityResult()方法被调用。
+6、onActivityResult()被调用，并且你的插件传递了一个结果到新的CallbackContext
+7、resume事件被触发，并且被Cordova application接收。
+
+
+Android为开发者提供了调试Activity被破坏的低内存调试模式。启用您的设备或模拟器上的开发人员选项菜单中的“不保留活动”设置模拟内存不足的情况。如果你的插件需要启动的外部Activity，你应该总是做一些测试与启用此设置，以确保你正确地处理内存不足的情况。
