@@ -1,5 +1,5 @@
 #CordovaCn 提交规则 Ver 1.0<br>
-###01基础知识 主要提供官方使用手册相关内容<br>
+###01基础知识 主要提供官方使用手册相关内容(以Android和iOS为主)<br>
 ###02插件使用 主要提供各种插件的使用说明类文章，比如插件Readme的翻译以及api使用经验<br>
 ###03代码分享 大家分享自己的各种有意义和复用价值的代码(如果是公司生产级别代码请注意知识产权保护)<br>
 ###04常见问题及解决办法 大家分享在Cordova开发过程中遇到的各种坑以及解决办法<br>
@@ -37,5 +37,10 @@ Example: 01.[GitHub上README.md教程](http://blog.csdn.net/kaitiren/article/det
 20160302:Create by ryouaki<br>
 20160302:Add [04常见问题及解决办法] by ryouaki<br>
 20160303:Add [01/02Platform Support(平台支持)] by ryouaki<br>
-20160303:Add [01/05Cordova iOS4.1.0 Released] by ryouaki<br>
+20160303:Add [05/05Cordova iOS4.1.0 Released] by ryouaki<br>
 20160303:Add [01/09Plugin Development Guide(插件开发指南)] by kebenxiaoming<br>
+20160308:Add [01/03Install Cordova(Cordova的安装)] by ryouaki<br>
+20160308:Add [01/04Cordova-Cli(Cordova命令行)] by ryouaki<br>
+20160308:Add [01/05config.xml Guide(config.xml指南)] by ryouaki<br>
+
+
