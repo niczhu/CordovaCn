@@ -17,7 +17,7 @@ Example: 01.[GitHub上README.md教程](http://blog.csdn.net/kaitiren/article/det
 03.[Install Cordova(Cordova的安装)](https://github.com/CordovaCn/CordovaCn/blob/master/01%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86(Basic%20Knowledge)/03Install%20Cordova(Cordova%E7%9A%84%E5%AE%89%E8%A3%85).md) (@作者Ryouaki)<br>
 04.[Cordova-Cli(Cordova命令行)](https://github.com/CordovaCn/CordovaCn/blob/master/01%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86(Basic%20Knowledge)/04.Cordova%20Command-Line-Interface(Cordova%E5%91%BD%E4%BB%A4%E8%A1%8C).md) (@作者Ryouaki)<br>
 05.[config.xml Guide(config.xml指南)](https://github.com/CordovaCn/CordovaCn/blob/master/01%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86(Basic%20Knowledge)/05.config.xml%20Guide(config.xml%E6%8C%87%E5%8D%97).md) (@作者Ryouaki)<br>
-06.[Icons&Splashscreen(Icons&Splashscreen待)]<br>
+06.[Customize Icons(自定义图标)](https://github.com/CordovaCn/CordovaCn/blob/master/01%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86(Basic%20Knowledge)/06.Customize%20Icons(%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9B%BE%E6%A0%87).md) (@作者Ryouaki<br>
 07.[Cordova Security(Cordova的安全相关待)]<br>
 08.[plugin.xml Guide(plugin.xml指南待)]<br>
 09.[Plugin Development Guide(插件开发指南)](https://github.com/CordovaCn/CordovaCn/blob/master/01%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86(Basic%20Knowledge)/09.Plugin%20Development%20Guide(%E6%8F%92%E4%BB%B6%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97).md) (@作者kebenxiaoming)
