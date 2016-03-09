@@ -42,5 +42,6 @@ Example: 01.[GitHub上README.md教程](http://blog.csdn.net/kaitiren/article/det
 20160308:Add [01/03Install Cordova(Cordova的安装)] by ryouaki<br>
 20160308:Add [01/04Cordova-Cli(Cordova命令行)] by ryouaki<br>
 20160308:Add [01/05config.xml Guide(config.xml指南)] by ryouaki<br>
+20160309:Add [01/06Customize Icons(自定义图标)] by ryouaki<br>
 
 
