@@ -23,7 +23,28 @@ Example: 01.[GitHub上README.md教程](http://blog.csdn.net/kaitiren/article/det
 09.[Plugin Development Guide(插件开发指南)](https://github.com/CordovaCn/CordovaCn/blob/master/01%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86(Basic%20Knowledge)/09.Plugin%20Development%20Guide(%E6%8F%92%E4%BB%B6%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97).md) (@作者kebenxiaoming)
 <br>
 10.<a href="https://github.com/CordovaCn/CordovaCn/blob/master/01%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86(Basic%20Knowledge)/10.Android%20Plugins(Android%E6%8F%92%E4%BB%B6%E5%BC%80%E5%8F%91).md">Android Plugins(Android插件开发)</a> (@作者kebenxiaoming)
-#02插件使用<br>
+#02插件使用(待)<br>
+01.Battery Status
+02.Camera
+03.Console
+04.Contacts
+05.Device
+06.Device Motion
+07.Device Orientation
+08.Dialogs
+09.File
+10.File Transfer
+11.Geolocation
+12.Globalization
+13.Inappbrowser
+14.Media
+15.Media Capture
+16.Network Information
+17.Splashscreen
+18.Vibration
+19.Statusbar
+20.Whitelist
+21.Legacy Whitelist
 <br>
 #03代码分享<br>
 01.[基于Ionic的Cordova工程Demo](https://github.com/CordovaCn/CordovaCn/tree/master/03%E4%BB%A3%E7%A0%81%E5%88%86%E4%BA%AB(Share%20Demo)/Empty-Ionic-Demo) (@作者xingchenxuanfeng )<br>
