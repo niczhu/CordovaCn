@@ -6,7 +6,7 @@
 ######05官方博文(Blog from Cordova) 跟踪官方更新blog，即使了解最新信息<br>
 ######imgs     用于提交Readme关联的图片<br>
 <br>
-#####所有站内信息一定要提交候在本页添加一个link到你对应的*.md文件上或者是Demo首页<br>
+#####所有站内信息一定要提交后在本页添加一个link到你对应的*.md文件上或者是Demo首页<br>
 ######本站内容提交方式    标题 link(@作者XXX)<br>
 ######本站外内容提交方式  标题 link(转@作者XXX)<br>
 Example: 01.[GitHub上README.md教程](http://blog.csdn.net/kaitiren/article/details/38513715) (转@作者kaitiren)<br>
