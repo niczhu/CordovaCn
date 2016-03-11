@@ -46,7 +46,7 @@ Example: 01.[GitHub上README.md教程](http://blog.csdn.net/kaitiren/article/det
 20.Whitelist<br>
 21.Legacy Whitelist<br>
 <br>
-#03代码分享<br>
+#03代码分享*请在CordovaCn创建单独的Repository然后将连接Link到这里*<br>
 01.[基于Ionic的Cordova工程Demo](https://github.com/CordovaCn/CordovaCn/tree/master/03%E4%BB%A3%E7%A0%81%E5%88%86%E4%BA%AB(Share%20Demo)/Empty-Ionic-Demo) (@作者xingchenxuanfeng )<br>
 <br>
 #04常见问题及解决办法<br>
