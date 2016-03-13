@@ -48,7 +48,8 @@ Example: 01.[GitHub上README.md教程](http://blog.csdn.net/kaitiren/article/det
 21.Legacy Whitelist<br>
 <br>
 #03代码分享<br>
-*请在CordovaCn创建单独的Repository然后将连接Link到这里*
+*请在CordovaCn创建单独的Repository然后将连接Link到这里*<br>
+01.[插件Demo(目前进度0%)](https://github.com/CordovaCn/CordovaPluginsDemo) (@作者Ryouaki)<br>
 <br>
 #04常见问题及解决办法<br>
 <br>
