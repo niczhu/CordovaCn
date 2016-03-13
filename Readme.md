@@ -22,7 +22,8 @@ Example: 01.[GitHub上README.md教程](http://blog.csdn.net/kaitiren/article/det
 08.[Plugin.xml Guide(Plugin配置文件指南)](https://github.com/CordovaCn/CordovaCn/blob/master/01%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86(Basic%20Knowledge)/08.Plugin.xml%20Guide(Plugin%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E6%8C%87%E5%8D%97).md) (@作者Ryouaki)<br>
 09.[Plugin Development Guide(插件开发指南)](https://github.com/CordovaCn/CordovaCn/blob/master/01%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86(Basic%20Knowledge)/09.Plugin%20Development%20Guide(%E6%8F%92%E4%BB%B6%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97).md) (@作者kebenxiaoming)
 <br>
-10.<a href="https://github.com/CordovaCn/CordovaCn/blob/master/01%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86(Basic%20Knowledge)/10.Android%20Plugins(Android%E6%8F%92%E4%BB%B6%E5%BC%80%E5%8F%91).md">Android Plugins(Android插件开发)</a> (@作者kebenxiaoming)
+10.[Android Plugins(Android插件开发)](https://github.com/CordovaCn/CordovaCn/blob/master/01%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86(Basic%20Knowledge)/10.Android%20Plugins(Android%E6%8F%92%E4%BB%B6%E5%BC%80%E5%8F%91).md) (@作者kebenxiaoming)<br>
+11.[iOS Plugins(iOS插件开发)](待)
 #02插件使用(待)<br>
 01.Battery Status<br>
 02.Camera<br>
