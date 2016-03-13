@@ -19,7 +19,7 @@ Example: 01.[GitHub上README.md教程](http://blog.csdn.net/kaitiren/article/det
 05.[config.xml Guide(config.xml指南)](https://github.com/CordovaCn/CordovaCn/blob/master/01%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86(Basic%20Knowledge)/05.config.xml%20Guide(config.xml%E6%8C%87%E5%8D%97).md) (@作者Ryouaki)<br>
 06.[Customize Icons(自定义图标)](https://github.com/CordovaCn/CordovaCn/blob/master/01%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86(Basic%20Knowledge)/06.Customize%20Icons(%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9B%BE%E6%A0%87).md) (@作者Ryouaki<br>
 07.[Event(事件)](https://github.com/CordovaCn/CordovaCn/blob/master/01%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86(Basic%20Knowledge)/07.Event(%E4%BA%8B%E4%BB%B6).md) (@作者Ryouaki)<br>
-08.[plugin.xml Guide(plugin.xml指南待)]<br>
+08.[Plugin.xml Guide(Plugin配置文件指南)](CordovaCn/01基础知识(Basic Knowledge)/08.Plugin.xml Guide(Plugin配置文件指南).md) (@作者Ryouaki)<br>
 09.[Plugin Development Guide(插件开发指南)](https://github.com/CordovaCn/CordovaCn/blob/master/01%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86(Basic%20Knowledge)/09.Plugin%20Development%20Guide(%E6%8F%92%E4%BB%B6%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97).md) (@作者kebenxiaoming)
 <br>
 10.<a href="https://github.com/CordovaCn/CordovaCn/blob/master/01%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86(Basic%20Knowledge)/10.Android%20Plugins(Android%E6%8F%92%E4%BB%B6%E5%BC%80%E5%8F%91).md">Android Plugins(Android插件开发)</a> (@作者kebenxiaoming)
@@ -66,4 +66,5 @@ Example: 01.[GitHub上README.md教程](http://blog.csdn.net/kaitiren/article/det
 20160308:Add [01/05config.xml Guide(config.xml指南)] by ryouaki<br>
 20160309:Add [01/06Customize Icons(自定义图标)] by ryouaki<br>
 20160309:Add [01/07Event(事件)] by ryouaki<br>
+20160313:Add [01/08Plugin.xml Guide(Plugin配置文件指南)] by ryouaki<br>
 
