@@ -23,7 +23,7 @@ Example: 01.[GitHub上README.md教程](http://blog.csdn.net/kaitiren/article/det
 09.[Plugin Development Guide(插件开发指南)](https://github.com/CordovaCn/CordovaCn/blob/master/01%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86(Basic%20Knowledge)/09.Plugin%20Development%20Guide(%E6%8F%92%E4%BB%B6%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97).md) (@作者kebenxiaoming)
 <br>
 10.[Android Plugins(Android插件开发)](https://github.com/CordovaCn/CordovaCn/blob/master/01%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86(Basic%20Knowledge)/10.Android%20Plugins(Android%E6%8F%92%E4%BB%B6%E5%BC%80%E5%8F%91).md) (@作者kebenxiaoming)<br>
-11.[iOS Plugins(iOS插件开发)](待)
+11.[iOS Plugins(iOS插件开发)](https://github.com/CordovaCn/CordovaCn/blob/master/01%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86(Basic%20Knowledge)/11.iOS%20Plugins(iOS%E6%8F%92%E4%BB%B6%E5%BC%80%E5%8F%91).md) (@作者Ryouaki)
 #02插件使用(待)<br>
 01.Battery Status<br>
 02.Camera<br>
@@ -60,14 +60,7 @@ Example: 01.[GitHub上README.md教程](http://blog.csdn.net/kaitiren/article/det
 ----------------------------history-------------------------<br>
 20160302:Create by ryouaki<br>
 20160302:Add [04常见问题及解决办法] by ryouaki<br>
-20160303:Add [01/02Platform Support(平台支持)] by ryouaki<br>
 20160303:Add [05/05Cordova iOS4.1.0 Released] by ryouaki<br>
-20160303:Add [01/09Plugin Development Guide(插件开发指南)] by kebenxiaoming<br>
-20160308:Add [01/03Install Cordova(Cordova的安装)] by ryouaki<br>
-20160308:Add [01/04Cordova-Cli(Cordova命令行)] by ryouaki<br>
-20160308:Add [01/05config.xml Guide(config.xml指南)] by ryouaki<br>
-20160309:Add [01/06Customize Icons(自定义图标)] by ryouaki<br>
-20160309:Add [01/07Event(事件)] by ryouaki<br>
-20160313:Add [01/08Plugin.xml Guide(Plugin配置文件指南)] by ryouaki<br>
 20160314:Add [04/01iOS域访问限制(statusCode==0)] by ryouaki<br>
+
 
