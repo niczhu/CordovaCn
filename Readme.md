@@ -63,5 +63,6 @@ Example: 01.[GitHub上README.md教程](http://blog.csdn.net/kaitiren/article/det
 20160302:Add [04常见问题及解决办法] by ryouaki<br>
 20160303:Add [05/05Cordova iOS4.1.0 Released] by ryouaki<br>
 20160314:Add [04/01iOS域访问限制(statusCode==0)] by ryouaki<br>
-20160314:Add [04/0长按屏幕引起的提示菜单或者提示框问)] by ryouaki<br>
+20160314:Add [04/02长按屏幕引起的提示菜单或者提示框问)] by ryouaki<br>
+20160314:Move 01 change history into 01/Readme.md by ryouaki<br>
 
