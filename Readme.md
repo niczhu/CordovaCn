@@ -62,6 +62,7 @@ Example: 01.[GitHub上README.md教程](http://blog.csdn.net/kaitiren/article/det
 02.[长按屏幕引起的提示菜单或者提示框问题](https://github.com/CordovaCn/CordovaCn/blob/master/04%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3%E7%BB%8F%E9%AA%8C(Problem%26Experience)/02.%E9%95%BF%E6%8C%89%E5%B1%8F%E5%B9%95%E5%BC%95%E8%B5%B7%E7%9A%84%E6%8F%90%E7%A4%BA%E8%8F%9C%E5%8D%95%E6%88%96%E8%80%85%E6%8F%90%E7%A4%BA%E6%A1%86%E9%97%AE%E9%A2%98.md) (@作者Ryouaki)<br>
 03.[Android调试方法(pending)]()<br>
 04.[iOS调试方法(pending)]()<br>
+05.[Github简要指南](https://github.com/CordovaCn/CordovaCn/blob/master/04%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3%E7%BB%8F%E9%AA%8C(Problem&Experience)/03.Git%E7%AE%80%E8%A6%81%E6%8C%87%E5%8D%97.md) (@作者Ryouaki)<br>
 <br>
 ##05官方博文(Blog from Cordova)<br>
 01.[Cordova iOS4.1.0 Released](https://github.com/CordovaCn/CordovaCn/blob/master/05%E5%AE%98%E6%96%B9%E5%8D%9A%E6%96%87(Blog%20from%20Cordova)/02-Mar-2016%20Cordova%20iOS%204.1.0%20Released.md) (@作者Ryouaki)<br>
