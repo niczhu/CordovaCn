@@ -62,8 +62,10 @@ Example: <br>
 ##04常见问题及解决办法<br>
 01.[iOS域访问限制(statusCode==0)](https://github.com/CordovaCn/CordovaCn/blob/master/04%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3%E7%BB%8F%E9%AA%8C(Problem&Experience)/01.iOS%E5%9F%9F%E8%AE%BF%E9%97%AE%E9%99%90%E5%88%B6(Ajax%E8%AF%B7%E6%B1%82%E8%BF%94%E5%9B%9EstatusCode==0).md) (@作者Ryouaki)<br>
 02.[长按屏幕引起的提示菜单或者提示框问题](https://github.com/CordovaCn/CordovaCn/blob/master/04%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3%E7%BB%8F%E9%AA%8C(Problem%26Experience)/02.%E9%95%BF%E6%8C%89%E5%B1%8F%E5%B9%95%E5%BC%95%E8%B5%B7%E7%9A%84%E6%8F%90%E7%A4%BA%E8%8F%9C%E5%8D%95%E6%88%96%E8%80%85%E6%8F%90%E7%A4%BA%E6%A1%86%E9%97%AE%E9%A2%98.md) (@作者Ryouaki)<br>
-03.[Android调试方法(pending)]()<br>
-04.[iOS调试方法(pending)]()<br>
+03.[Git简要指南](https://github.com/CordovaCn/CordovaCn/blob/master/04%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3%E7%BB%8F%E9%AA%8C(Problem%26Experience)/03.Git%E7%AE%80%E8%A6%81%E6%8C%87%E5%8D%97.md) (@作者Ryouaki)<br>
+04.[App内部打开外部连接跳转浏览器的解决办法](https://github.com/CordovaCn/CordovaCn/blob/master/04%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3%E7%BB%8F%E9%AA%8C(Problem%26Experience)/04.App%E5%86%85%E9%83%A8%E6%89%93%E5%BC%80%E5%A4%96%E9%83%A8%E8%BF%9E%E6%8E%A5%E8%B7%B3%E8%BD%AC%E6%B5%8F%E8%A7%88%E5%99%A8%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95.md) (@作者杭州-毛毛熊)<br>
+05.[Android调试方法(pending)]()<br>
+06.[iOS调试方法(pending)]()<br>
 <br>
 ##05官方博文(Blog from Cordova)<br>
 01.[Cordova iOS4.1.0 Released](https://github.com/CordovaCn/CordovaCn/blob/master/05%E5%AE%98%E6%96%B9%E5%8D%9A%E6%96%87(Blog%20from%20Cordova)/02-Mar-2016%20Cordova%20iOS%204.1.0%20Released.md) (@作者Ryouaki)<br>
