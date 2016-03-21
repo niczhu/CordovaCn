@@ -3,7 +3,7 @@
 02插件使用 主要提供各种插件的使用说明类文章，比如插件Readme的翻译以及api使用经验<br>
 03代码分享 大家分享自己的各种有意义和复用价值的代码(如果是公司生产级别代码请注意知识产权保护)<br>
 04常见问题及解决办法 大家分享在Cordova开发过程中遇到的各种坑以及解决办法<br>
-05官方博文(Blog from Cordova) 跟踪官方更新blog，即使了解最新信息<br>
+05官方博文(Blog from Cordova) 跟踪官方更新blog，及时了解最新信息<br>
 06imgs     用于提交Readme关联的图片<br>
 <br>
 #####所有站内信息一定要提交后在本页添加一个link到你对应的*.md文件上或者是Demo首页
@@ -26,7 +26,7 @@ Example: <br>
 <br>
 10.[Android Plugins(Android插件开发)](https://github.com/CordovaCn/CordovaCn/blob/master/01%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86(Basic%20Knowledge)/10.Android%20Plugins(Android%E6%8F%92%E4%BB%B6%E5%BC%80%E5%8F%91).md) (@作者kebenxiaoming)<br>
 11.[iOS Plugins(iOS插件开发)](https://github.com/CordovaCn/CordovaCn/blob/master/01%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86(Basic%20Knowledge)/11.iOS%20Plugins(iOS%E6%8F%92%E4%BB%B6%E5%BC%80%E5%8F%91).md) (@作者Ryouaki)<br>
-12.HookS(pending)<br>
+12.Hooks(pending)<br>
 13.Android WebViews(pending)<br>
 14.iOS WebViews(pending)<br>
 
