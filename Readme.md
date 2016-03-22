@@ -67,6 +67,7 @@ Example: <br>
 04.[App内部打开外部连接跳转浏览器的解决办法](https://github.com/CordovaCn/CordovaCn/blob/master/04%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3%E7%BB%8F%E9%AA%8C(Problem%26Experience)/04.App%E5%86%85%E9%83%A8%E6%89%93%E5%BC%80%E5%A4%96%E9%83%A8%E8%BF%9E%E6%8E%A5%E8%B7%B3%E8%BD%AC%E6%B5%8F%E8%A7%88%E5%99%A8%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95.md) (@作者杭州-毛毛熊)<br>
 05.[Android调试方法](https://github.com/CordovaCn/CordovaCn/blob/master/04%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3%E7%BB%8F%E9%AA%8C(Problem&Experience)/05.Android%E8%B0%83%E8%AF%95%E6%96%B9%E6%B3%95.md) (@作者Ryouaki)<br>
 06.[iOS调试方法](https://github.com/CordovaCn/CordovaCn/blob/master/04%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3%E7%BB%8F%E9%AA%8C(Problem%26Experience)/06.iOS%E8%B0%83%E8%AF%95%E6%96%B9%E6%B3%95.md) (@作者Ryouaki)<br>
+07.[打不开Chrome Inspector，一直显示白屏](https://github.com/CordovaCn/CordovaCn/blob/master/04%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3%E7%BB%8F%E9%AA%8C(Problem%26Experience)/07%E6%89%93%E4%B8%8D%E5%BC%80Chrome%20Inspector%EF%BC%8C%20%E4%B8%80%E7%9B%B4%E6%98%BE%E7%A4%BA%E7%99%BD%E5%B1%8F.md) (@作者Vaenow)<br>
 <br>
 ##05官方博文(Blog from Cordova)<br>
 01.[Cordova iOS4.1.0 Released](https://github.com/CordovaCn/CordovaCn/blob/master/05%E5%AE%98%E6%96%B9%E5%8D%9A%E6%96%87(Blog%20from%20Cordova)/02-Mar-2016%20Cordova%20iOS%204.1.0%20Released.md) (@作者Ryouaki)<br>
