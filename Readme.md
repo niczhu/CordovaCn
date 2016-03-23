@@ -32,7 +32,7 @@ Example: <br>
 
 #02插件使用<br>
 00.[自定义插件](https://github.com/CordovaCn/CordovaPluginsDemo/blob/master/cordova-plugin-custom/README.md) (@作者Ryouaki)<br>
-01.Battery Status<br>
+01.[Battery Status电源状态](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/01.cordova-plugin-battery-status.md) (@作者Ryouaki)<br>
 02.Camera<br>
 03.Console<br>
 04.[Contacts使用说明](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/04.cordova-plugin-contacts.md) (@作者Ryouaki)<br>
@@ -57,6 +57,7 @@ Example: <br>
 ##03代码分享<br>
 *请在CordovaCn创建单独的Repository然后将连接Link到这里*<br>
 00.[自定义插件Demo](https://github.com/CordovaCn/CordovaPluginsDemo) (@作者Ryouaki)<br>
+01.[Battery Status Demo](https://github.com/CordovaCn/CordovaPluginsDemo) (@作者Ryouaki)<br>
 04.[Contacts Demo](https://github.com/CordovaCn/CordovaPluginsDemo) (@作者Ryouaki)<br>
 20.[Whitelist Demo(简要Demo)](https://github.com/CordovaCn/CordovaPluginsDemo) (@作者Ryouaki)<br>
 <br>
