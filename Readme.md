@@ -73,11 +73,5 @@ Example: <br>
 ##05官方博文(Blog from Cordova)<br>
 01.[Cordova iOS4.1.0 Released](https://github.com/CordovaCn/CordovaCn/blob/master/05%E5%AE%98%E6%96%B9%E5%8D%9A%E6%96%87(Blog%20from%20Cordova)/02-Mar-2016%20Cordova%20iOS%204.1.0%20Released.md) (@作者Ryouaki)<br>
 <br>
-----------------------------history-------------------------<br>
-20160302:Create by ryouaki<br>
-20160302:Add [04常见问题及解决办法] by ryouaki<br>
-20160303:Add [05/05Cordova iOS4.1.0 Released] by ryouaki<br>
-20160314:Add [04/01iOS域访问限制(statusCode==0)] by ryouaki<br>
-20160314:Add [04/02长按屏幕引起的提示菜单或者提示框问)] by ryouaki<br>
-20160314:Move 01 change history into 01/Readme.md by ryouaki<br>
-20160316:Add [02/04contact使用说明] by ryouaki<br>
+----------------------------Notes-------------------------<br>
+CordovaCn官方QQ群:38840127
