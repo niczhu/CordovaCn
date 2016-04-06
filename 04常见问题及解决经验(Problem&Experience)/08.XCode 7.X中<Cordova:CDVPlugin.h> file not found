@@ -1,6 +1,0 @@
-关于XCode7.x中<Cordova/CDVPlugin.h>文件找不到的问题
-
-在工程的[Build Settings]->[Search Paths]->[Header Search Paths]中添加以下代码
-"$(OBJROOT)/UninstalledProducts/$(PLATFORM_NAME)/include"
-
-增加头文件的搜索路径。
