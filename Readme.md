@@ -26,9 +26,10 @@ Example: <br>
 <br>
 10.[Android Plugins(Android插件开发)](https://github.com/CordovaCn/CordovaCn/blob/master/01%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86(Basic%20Knowledge)/10.Android%20Plugins(Android%E6%8F%92%E4%BB%B6%E5%BC%80%E5%8F%91).md) (@作者kebenxiaoming)<br>
 11.[iOS Plugins(iOS插件开发)](https://github.com/CordovaCn/CordovaCn/blob/master/01%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86(Basic%20Knowledge)/11.iOS%20Plugins(iOS%E6%8F%92%E4%BB%B6%E5%BC%80%E5%8F%91).md) (@作者Ryouaki)<br>
-12.Hooks(pending)<br>
-13.Android WebViews(pending)<br>
-14.iOS WebViews(pending)<br>
+12.Storage(pending)<br>
+13.Hooks(pending)<br>
+14.Android WebViews(pending)<br>
+15.iOS WebViews(pending)<br>
 
 #02插件使用<br>
 00.[自定义插件](https://github.com/CordovaCn/CordovaPluginsDemo/blob/master/cordova-plugin-custom/README.md) (@作者Ryouaki)<br>
