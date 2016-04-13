@@ -53,7 +53,6 @@ Example: <br>
 18.Vibration<br>
 19.Statusbar<br>
 20.[Whitelist白名单](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/20.cordova-plugin-whitelist.md) (@作者Ryouaki)<br>
-21.Legacy Whitelist<br>
 <br>
 ##03代码分享<br>
 *请在CordovaCn创建单独的Repository然后将连接Link到这里*<br>
