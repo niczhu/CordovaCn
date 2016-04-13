@@ -59,7 +59,7 @@ Example: <br>
 00.[自定义插件Demo](https://github.com/CordovaCn/CordovaPluginsDemo) (@作者Ryouaki)<br>
 01.[Battery Status Demo](https://github.com/CordovaCn/CordovaPluginsDemo) (@作者Ryouaki)<br>
 02.[Camera Demo](https://github.com/CordovaCn/CordovaPluginsDemo) (@作者Ryouaki)<br>
-02.[Console Demo](https://github.com/CordovaCn/CordovaPluginsDemo) (@作者Ryouaki)<br>
+03.[Console Demo](https://github.com/CordovaCn/CordovaPluginsDemo) (@作者Ryouaki)<br>
 04.[Contacts Demo](https://github.com/CordovaCn/CordovaPluginsDemo) (@作者Ryouaki)<br>
 20.[Whitelist Demo(简要Demo)](https://github.com/CordovaCn/CordovaPluginsDemo) (@作者Ryouaki)<br>
 <br>
