@@ -34,7 +34,7 @@ Example: <br>
 00.[自定义插件](https://github.com/CordovaCn/CordovaPluginsDemo/blob/master/cordova-plugin-custom/README.md) (@作者Ryouaki)<br>
 01.[Battery Status电源状态](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/01.cordova-plugin-battery-status.md) (@作者Ryouaki)<br>
 02.[Camera 照相机](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/02.cordova-plugin-camera.md) (@作者Ryouaki)<br>
-03.Console<br>
+03.[Console 日志](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/03.cordova-plugin-console.md) (@作者Ryouaki)<br>
 04.[Contacts使用说明](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/04.cordova-plugin-contacts.md) (@作者Ryouaki)<br>
 05.Device<br>
 06.Device Motion<br>
@@ -59,6 +59,7 @@ Example: <br>
 00.[自定义插件Demo](https://github.com/CordovaCn/CordovaPluginsDemo) (@作者Ryouaki)<br>
 01.[Battery Status Demo](https://github.com/CordovaCn/CordovaPluginsDemo) (@作者Ryouaki)<br>
 02.[Camera Demo](https://github.com/CordovaCn/CordovaPluginsDemo) (@作者Ryouaki)<br>
+02.[Console Demo](https://github.com/CordovaCn/CordovaPluginsDemo) (@作者Ryouaki)<br>
 04.[Contacts Demo](https://github.com/CordovaCn/CordovaPluginsDemo) (@作者Ryouaki)<br>
 20.[Whitelist Demo(简要Demo)](https://github.com/CordovaCn/CordovaPluginsDemo) (@作者Ryouaki)<br>
 <br>
