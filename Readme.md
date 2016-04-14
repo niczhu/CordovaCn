@@ -26,15 +26,16 @@ Example: <br>
 <br>
 10.[Android Plugins(Android插件开发)](https://github.com/CordovaCn/CordovaCn/blob/master/01%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86(Basic%20Knowledge)/10.Android%20Plugins(Android%E6%8F%92%E4%BB%B6%E5%BC%80%E5%8F%91).md) (@作者kebenxiaoming)<br>
 11.[iOS Plugins(iOS插件开发)](https://github.com/CordovaCn/CordovaCn/blob/master/01%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86(Basic%20Knowledge)/11.iOS%20Plugins(iOS%E6%8F%92%E4%BB%B6%E5%BC%80%E5%8F%91).md) (@作者Ryouaki)<br>
-12.Hooks(pending)<br>
-13.Android WebViews(pending)<br>
-14.iOS WebViews(pending)<br>
+12.Storage(pending)<br>
+13.Hooks(pending)<br>
+14.Android WebViews(pending)<br>
+15.iOS WebViews(pending)<br>
 
 #02插件使用<br>
 00.[自定义插件](https://github.com/CordovaCn/CordovaPluginsDemo/blob/master/cordova-plugin-custom/README.md) (@作者Ryouaki)<br>
 01.[Battery Status电源状态](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/01.cordova-plugin-battery-status.md) (@作者Ryouaki)<br>
 02.[Camera 照相机](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/02.cordova-plugin-camera.md) (@作者Ryouaki)<br>
-03.Console<br>
+03.[Console 日志](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/03.cordova-plugin-console.md) (@作者Ryouaki)<br>
 04.[Contacts使用说明](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/04.cordova-plugin-contacts.md) (@作者Ryouaki)<br>
 05.Device<br>
 06.Device Motion<br>
@@ -52,13 +53,13 @@ Example: <br>
 18.Vibration<br>
 19.Statusbar<br>
 20.[Whitelist白名单](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/20.cordova-plugin-whitelist.md) (@作者Ryouaki)<br>
-21.Legacy Whitelist<br>
 <br>
 ##03代码分享<br>
 *请在CordovaCn创建单独的Repository然后将连接Link到这里*<br>
 00.[自定义插件Demo](https://github.com/CordovaCn/CordovaPluginsDemo) (@作者Ryouaki)<br>
 01.[Battery Status Demo](https://github.com/CordovaCn/CordovaPluginsDemo) (@作者Ryouaki)<br>
 02.[Camera Demo](https://github.com/CordovaCn/CordovaPluginsDemo) (@作者Ryouaki)<br>
+03.[Console Demo](https://github.com/CordovaCn/CordovaPluginsDemo) (@作者Ryouaki)<br>
 04.[Contacts Demo](https://github.com/CordovaCn/CordovaPluginsDemo) (@作者Ryouaki)<br>
 20.[Whitelist Demo(简要Demo)](https://github.com/CordovaCn/CordovaPluginsDemo) (@作者Ryouaki)<br>
 <br>
@@ -70,7 +71,7 @@ Example: <br>
 05.[Android调试方法](https://github.com/CordovaCn/CordovaCn/blob/master/04%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3%E7%BB%8F%E9%AA%8C(Problem&Experience)/05.Android%E8%B0%83%E8%AF%95%E6%96%B9%E6%B3%95.md) (@作者Ryouaki)<br>
 06.[iOS调试方法](https://github.com/CordovaCn/CordovaCn/blob/master/04%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3%E7%BB%8F%E9%AA%8C(Problem%26Experience)/06.iOS%E8%B0%83%E8%AF%95%E6%96%B9%E6%B3%95.md) (@作者Ryouaki)<br>
 07.[打不开Chrome Inspector，一直显示白屏](https://github.com/CordovaCn/CordovaCn/blob/master/04%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3%E7%BB%8F%E9%AA%8C(Problem%26Experience)/07%E6%89%93%E4%B8%8D%E5%BC%80Chrome%20Inspector%EF%BC%8C%20%E4%B8%80%E7%9B%B4%E6%98%BE%E7%A4%BA%E7%99%BD%E5%B1%8F.md) (@作者Vaenow)<br>
-08.[XCode 7.X中<Cordova:CDVPlugin.h> file not found](https://github.com/CordovaCn/CordovaCn/blob/master/04%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3%E7%BB%8F%E9%AA%8C%28Problem&Experience%29/08.XCode%207.X%E4%B8%AD%3CCordova:CDVPlugin.h%3E%20file%20not%20found.md) (@作者Ryouaki)<br>
+08.[XCode 7.X中Cordova:CDVPlugin.h file not found](https://github.com/CordovaCn/CordovaCn/blob/master/04%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3%E7%BB%8F%E9%AA%8C%28Problem&Experience%29/08.XCode%207.X%E4%B8%AD%3CCordova:CDVPlugin.h%3E%20file%20not%20found.md) (@作者Ryouaki)<br>
 09.[App运行后屏幕分辨率异常](https://github.com/CordovaCn/CordovaCn/blob/master/04%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3%E7%BB%8F%E9%AA%8C(Problem%26Experience)/09.App%E8%BF%90%E8%A1%8C%E5%90%8E%E5%B1%8F%E5%B9%95%E5%88%86%E8%BE%A8%E7%8E%87%E5%BC%82%E5%B8%B8.md) (@作者Ryouaki)<br>
 10.[iOS设备@media匹配(iOS)](https://github.com/CordovaCn/CordovaCn/blob/master/04%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3%E7%BB%8F%E9%AA%8C(Problem%26Experience)/10.iOS%E8%AE%BE%E5%A4%87%40media%E5%8C%B9%E9%85%8D(iOS).md) (@作者Ryouaki)<br>
 11.[No SIM Card Installed显示2次(iOS)](https://github.com/CordovaCn/CordovaCn/blob/master/04%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3%E7%BB%8F%E9%AA%8C(Problem%26Experience)/11.No%20SIM%20Card%20Installed%20Twice(iOS).md) (@作者Ryouaki)<br>
