@@ -3,7 +3,7 @@
 02插件使用 主要提供各种插件的使用说明类文章，比如插件Readme的翻译以及api使用经验<br>
 03代码分享 大家分享自己的各种有意义和复用价值的代码(如果是公司生产级别代码请注意知识产权保护)<br>
 04常见问题及解决办法 大家分享在Cordova开发过程中遇到的各种坑以及解决办法<br>
-05官方博文(Blog from Cordova) 跟踪官方更新blog，及时了解最新信息<br>
+05经验博文(Blog from Cordova) 分享网络上Cordova相关博文<br>
 06imgs     用于提交Readme关联的图片<br>
 <br>
 #####所有站内信息一定要提交后在本页添加一个link到你对应的*.md文件上或者是Demo首页
@@ -36,8 +36,8 @@ Example: <br>
 01.[Battery Status电源状态](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/01.cordova-plugin-battery-status.md) (@作者Ryouaki)<br>
 02.[Camera 照相机](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/02.cordova-plugin-camera.md) (@作者Ryouaki)<br>
 03.[Console 日志](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/03.cordova-plugin-console.md) (@作者Ryouaki)<br>
-04.[Contacts使用说明](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/04.cordova-plugin-contacts.md) (@作者Ryouaki)<br>
-05.Device<br>
+04.[Contacts 使用说明](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/04.cordova-plugin-contacts.md) (@作者Ryouaki)<br>
+05.[Device 使用说明](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/05.cordova-plugin-device.md) (@作者Ryouaki)<br>
 06.Device Motion<br>
 07.Device Orientation<br>
 08.Dialogs<br>
@@ -61,6 +61,7 @@ Example: <br>
 02.[Camera Demo](https://github.com/CordovaCn/CordovaPluginsDemo) (@作者Ryouaki)<br>
 03.[Console Demo](https://github.com/CordovaCn/CordovaPluginsDemo) (@作者Ryouaki)<br>
 04.[Contacts Demo](https://github.com/CordovaCn/CordovaPluginsDemo) (@作者Ryouaki)<br>
+05.[Device Demo](https://github.com/CordovaCn/CordovaPluginsDemo) (@作者Ryouaki)<br>
 20.[Whitelist Demo(简要Demo)](https://github.com/CordovaCn/CordovaPluginsDemo) (@作者Ryouaki)<br>
 <br>
 ##04常见问题及解决办法<br>
@@ -76,7 +77,7 @@ Example: <br>
 10.[iOS设备@media匹配(iOS)](https://github.com/CordovaCn/CordovaCn/blob/master/04%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3%E7%BB%8F%E9%AA%8C(Problem%26Experience)/10.iOS%E8%AE%BE%E5%A4%87%40media%E5%8C%B9%E9%85%8D(iOS).md) (@作者Ryouaki)<br>
 11.[No SIM Card Installed显示2次(iOS)](https://github.com/CordovaCn/CordovaCn/blob/master/04%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3%E7%BB%8F%E9%AA%8C(Problem%26Experience)/11.No%20SIM%20Card%20Installed%20Twice(iOS).md) (@作者Ryouaki)<br>
 <br>
-##05官方博文(Blog from Cordova)<br>
+##05经验博文(Blog for Cordova)<br>
 01.[Cordova iOS4.1.0 Released](https://github.com/CordovaCn/CordovaCn/blob/master/05%E5%AE%98%E6%96%B9%E5%8D%9A%E6%96%87(Blog%20from%20Cordova)/02-Mar-2016%20Cordova%20iOS%204.1.0%20Released.md) (@作者Ryouaki)<br>
 <br>
 ----------------------------Notes-------------------------<br>
