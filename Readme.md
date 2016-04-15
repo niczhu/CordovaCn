@@ -53,6 +53,7 @@ Example: <br>
 18.Vibration<br>
 19.Statusbar<br>
 20.[Whitelist白名单](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/20.cordova-plugin-whitelist.md) (@作者Ryouaki)<br>
+21.[Cordova-Plugin-Photos Demo(获取多图插件)](https://github.com/ryouaki/Cordova-Plugin-Photos/blob/master/README.md) (@作者Ryouaki)<br>
 <br>
 ##03代码分享<br>
 *请在CordovaCn创建单独的Repository然后将连接Link到这里*<br>
@@ -63,6 +64,7 @@ Example: <br>
 04.[Contacts Demo](https://github.com/CordovaCn/CordovaPluginsDemo) (@作者Ryouaki)<br>
 05.[Device Demo](https://github.com/CordovaCn/CordovaPluginsDemo) (@作者Ryouaki)<br>
 20.[Whitelist Demo(简要Demo)](https://github.com/CordovaCn/CordovaPluginsDemo) (@作者Ryouaki)<br>
+21.[Cordova-Plugin-Photos Demo(获取多图插件)](https://github.com/ryouaki/Cordova-Plugin-Photos) (@作者Ryouaki)<br>
 <br>
 ##04常见问题及解决办法<br>
 01.[iOS域访问限制(statusCode==0)](https://github.com/CordovaCn/CordovaCn/blob/master/04%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3%E7%BB%8F%E9%AA%8C(Problem&Experience)/01.iOS%E5%9F%9F%E8%AE%BF%E9%97%AE%E9%99%90%E5%88%B6(Ajax%E8%AF%B7%E6%B1%82%E8%BF%94%E5%9B%9EstatusCode==0).md) (@作者Ryouaki)<br>
