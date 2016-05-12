@@ -1,0 +1,84 @@
+@作者Ryouaki
+	曾几何时，每次有新人来群里，总会问，哎呀，我build以后，我修改的代码都被还原啦。。。。。。。求大神帮忙。<br>
+	Cordova build 命令到底干了什么龌鹾猥琐的事情，把我们辛苦码的代码给还原了？让我们从Cordova-cli源代码来分析，他到底干了什么对不起我们的事情吧。<br>
+```javascript
+    var Q = require('q'),
+    cordovaUtil = require('./util'),
+    HooksRunner = require('../hooks/HooksRunner');
+
+    // Returns a promise.
+    module.exports = function build(options) {
+    return Q().then(function() {
+        var projectRoot = cordovaUtil.cdProjectRoot();
+        options = cordovaUtil.preProcessOptions(options);
+
+        // fire build hooks
+        var hooksRunner = new HooksRunner(projectRoot);
+        return hooksRunner.fire('before_build', options)
+        .then(function() {
+            return require('./cordova').raw.prepare(options);
+        }).then(function() {
+            return require('./cordova').raw.compile(options);
+        }).then(function() {
+            return hooksRunner.fire('after_build', options);
+        });
+    });
+};
+```
+官网在解释`build`命令的时候就已经说了，`build`命令只是一个`prepare`和`compile`命令的组合。这也是我为什么反复的说，你真的没必要在命令行使用`build`命令，把工程导入到对应的开发工具比如xcode或者AS。会帮你避免很多问题。<br>
+
+那么代码被还原肯定是`prepare`或者`compile`的鬼了？那我们就来分析一下`prepare`干了什么坏事吧。<br>
+`prepare`的作用显而易见，就是帮你把cordova工程根目录的`src`和config.xml的内容同步到platform里面去。那么他是如何干的呢？我在Cordova源代码的__ cordova-lib/src/platforms/PlatformApiPoly.js__发现了这段代码：<br>
+```javascript
+	PlatformApiPoly.prototype.prepare = function (cordovaProject, options) {
+		// First cleanup current config and merge project's one into own
+		var defaultConfig = path.join(this.root, 'cordova', 'defaults.xml');
+		var ownConfig = this.getPlatformInfo().locations.configXml;
+
+		var sourceCfg = cordovaProject.projectConfig.path;
+		// If defaults.xml is present, overwrite platform config.xml with it.
+		// Otherwise save whatever is there as defaults so it can be
+		// restored or copy project config into platform if none exists.
+		if (fs.existsSync(defaultConfig)) {
+			this.events.emit('verbose', 'Generating config.xml from defaults for platform "' + this.platform + '"');
+			shell.cp('-f', defaultConfig, ownConfig);
+		} else if (fs.existsSync(ownConfig)) {
+			shell.cp('-f', ownConfig, defaultConfig);
+		} else {
+			shell.cp('-f', sourceCfg.path, ownConfig);
+		}
+
+		this._munger.reapply_global_munge().save_all();
+
+		this._config = new ConfigParser(ownConfig);
+		xmlHelpers.mergeXml(cordovaProject.projectConfig.doc.getroot(),
+			this._config.doc.getroot(), this.platform, true);
+		this._config.write();
+
+		// Update own www dir with project's www assets and plugins' assets and js-files
+		this._parser.update_www(cordovaProject.locations.www);
+
+		// update project according to config.xml changes.
+		return this._parser.update_project(this._config, options);
+	};
+```
+看见了吧？cp –f 强制复制覆盖掉你原有的修改。所以再一次验证了，你不能修改__工程目录/platforms/xxxx/config.xml__，而是通过修改__工程目录/config.xml__然后通过__cordova prepare__指令完成同步。<br>
+而随后的两行代码通过注释就可以清晰的意识到他更新了很多东西，我们以ios平台为例在Cordova源代码的cordova-lib/src/cordova/metadata/ios_parser.js里面，我们找到了上面代码中update_www的代码：
+```javascript
+	// Replace the www dir with contents of platform_www and app www.
+	ios_parser.prototype.update_www = function() {
+		var projectRoot = util.isCordova(this.path);
+		var app_www = util.projectWww(projectRoot);
+		var platform_www = path.join(this.path, 'platform_www');
+
+		// Clear the www dir
+		shell.rm('-rf', this.www_dir());
+		shell.mkdir(this.www_dir());
+		// Copy over all app www assets
+		shell.cp('-rf', path.join(app_www, '*'), this.www_dir());
+		// Copy over stock platform www assets (cordova.js)
+		shell.cp('-rf', path.join(platform_www, '*'), this.www_dir());
+	};
+```
+哦天呐，好霸道，__rm –rf__干掉工程目录__platform/ios/www__目录你怕了吗？你还敢没事去修改__platform__的代码吗？<br>
+所以，html/js/css的修改一定要在__工程目录/www__下面做，然后通过__cordova prepare__同步到platform_www下面。这样才能保证你的代码会同时发布到多个不同平台。
