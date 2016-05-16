@@ -40,7 +40,7 @@ Example: <br>
 05.[Device 使用说明](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/05.cordova-plugin-device.md) (@作者Ryouaki)<br>
 06.[Motion 使用说明(速度传感器)](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/06.cordova-plugin-device-motion.md) (@作者Ryouaki)<br>
 07.[Device Orientation(定位传感器)](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/07.cordova-plugin-device-orientation.md) (@作者Ryouaki)<br>
-08.Dialogs<br>
+08.[Dialogs(消息提示框)](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/08.cordova-plugin-dialogs.md) (@作者Ryouaki)<br>
 09.File<br>
 10.File Transfer<br>
 11.Geolocation<br>
