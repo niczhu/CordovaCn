@@ -39,7 +39,7 @@ Example: <br>
 04.[Contacts 使用说明(通讯录)](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/04.cordova-plugin-contacts.md) (@作者Ryouaki)<br>
 05.[Device 使用说明(设备信息)](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/05.cordova-plugin-device.md) (@作者Ryouaki)<br>
 06.[Motion 使用说明(速度传感器)](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/06.cordova-plugin-device-motion.md) (@作者Ryouaki)<br>
-07.[Device Orientation 使用说明(定位传感器)](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/07.cordova-plugin-device-orientation.md) (@作者Ryouaki)<br>
+07.[Device Orientation 使用说明(方向传感器)](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/07.cordova-plugin-device-orientation.md) (@作者Ryouaki)<br>
 08.[Dialogs 使用说明(消息提示框)](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/08.cordova-plugin-dialogs.md) (@作者Ryouaki)<br>
 09.[File 使用说明(文件系统)](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/09.cordova-plugin-file.md) (@作者Ryouaki)<br>
 10.[File Transfer 使用说明(文件上传下载)](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/10.cordova-plugin-file-transfer.md) (@作者Ryouaki)<br>
