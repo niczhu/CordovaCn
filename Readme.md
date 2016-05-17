@@ -33,11 +33,11 @@ Example: <br>
 
 #02插件使用<br>
 00.[自定义插件](https://github.com/CordovaCn/CordovaPluginsDemo/blob/master/cordova-plugin-custom/README.md) (@作者Ryouaki)<br>
-01.[Battery Status电源状态](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/01.cordova-plugin-battery-status.md) (@作者Ryouaki)<br>
-02.[Camera 照相机](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/02.cordova-plugin-camera.md) (@作者Ryouaki)<br>
-03.[Console 日志](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/03.cordova-plugin-console.md) (@作者Ryouaki)<br>
-04.[Contacts 使用说明](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/04.cordova-plugin-contacts.md) (@作者Ryouaki)<br>
-05.[Device 使用说明](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/05.cordova-plugin-device.md) (@作者Ryouaki)<br>
+01.[Battery Status 使用说明(电源状态)](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/01.cordova-plugin-battery-status.md) (@作者Ryouaki)<br>
+02.[Camera 使用说明(照相机)](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/02.cordova-plugin-camera.md) (@作者Ryouaki)<br>
+03.[Console 使用说明(日志)](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/03.cordova-plugin-console.md) (@作者Ryouaki)<br>
+04.[Contacts 使用说明(通讯录)](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/04.cordova-plugin-contacts.md) (@作者Ryouaki)<br>
+05.[Device 使用说明(设备信息)](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/05.cordova-plugin-device.md) (@作者Ryouaki)<br>
 06.[Motion 使用说明(速度传感器)](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/06.cordova-plugin-device-motion.md) (@作者Ryouaki)<br>
 07.[Device Orientation 使用说明(定位传感器)](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/07.cordova-plugin-device-orientation.md) (@作者Ryouaki)<br>
 08.[Dialogs 使用说明(消息提示框)](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/08.cordova-plugin-dialogs.md) (@作者Ryouaki)<br>
