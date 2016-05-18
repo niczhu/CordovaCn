@@ -49,7 +49,7 @@ Example: <br>
 14.Media<br>
 15.Media Capture<br>
 16.Network Information<br>
-17.Splashscreen<br>
+17.[Splashscreen 使用说明(启动画面)](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/17.cordova-plugin-splashscreen.md) (@作者Ryouaki)<br>
 18.[Vibration 使用说明(振动)](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/18.cordova-plugin-vibration.md) (@作者Ryouaki)<br>
 19.[Statusbar 使用说明(状态栏)](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/19.cordova-plugin-statusbar.md) (@作者Ryouaki)<br>
 20.[Whitelist 使用说明(白名单)](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/20.cordova-plugin-whitelist.md) (@作者Ryouaki)<br>
