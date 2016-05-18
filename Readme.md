@@ -51,8 +51,8 @@ Example: <br>
 16.Network Information<br>
 17.Splashscreen<br>
 18.Vibration<br>
-19.Statusbar<br>
-20.[Whitelist白名单](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/20.cordova-plugin-whitelist.md) (@作者Ryouaki)<br>
+19.[Statusbar 使用说明(状态栏)](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/19.cordova-plugin-statusbar.md) (@作者Ryouaki)<br>
+20.[Whitelist 使用说明(白名单)](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/20.cordova-plugin-whitelist.md) (@作者Ryouaki)<br>
 21.[Cordova-Plugin-Photos Demo(获取多图插件)](https://github.com/ryouaki/Cordova-Plugin-Photos/blob/master/README.md) (@作者Ryouaki)<br>
 <br>
 ##03代码分享<br>
