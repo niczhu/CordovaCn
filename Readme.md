@@ -83,6 +83,12 @@ Example: <br>
 <br>
 ##05经验博文(Blog for Cordova)<br>
 01.[Cordova iOS4.1.0 Released](https://github.com/CordovaCn/CordovaCn/blob/master/05%E5%AE%98%E6%96%B9%E5%8D%9A%E6%96%87(Blog%20from%20Cordova)/02-Mar-2016%20Cordova%20iOS%204.1.0%20Released.md) (@作者Ryouaki)<br>
+02.[JavaScript学习资料](http://www.runoob.com/js/js-tutorial.html) (转@菜鸟教程)<br>
+03.[CSS学习资料](http://www.runoob.com/css/css-tutorial.html) (转@菜鸟教程)<br>
+04.[CSS3学习资料](http://www.runoob.com/css3/css3-tutorial.html) (转@菜鸟教程)<br>
+05.[HTML学习资料](http://www.runoob.com/html/html-tutorial.html) (转@菜鸟教程)<br>
+06.[HTML5学习资料](http://www.runoob.com/html/html5-intro.html) (转@菜鸟教程)<br>
+07.[Ionic学习资料](http://www.runoob.com/ionic/ionic-tutorial.html) (转@菜鸟教程)<br>
 <br>
 ----------------------------Notes-------------------------<br>
 CordovaCn官方QQ群:38840127
