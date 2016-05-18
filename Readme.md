@@ -3,7 +3,7 @@
 02插件使用 主要提供各种插件的使用说明类文章，比如插件Readme的翻译以及api使用经验<br>
 03代码分享 大家分享自己的各种有意义和复用价值的代码(如果是公司生产级别代码请注意知识产权保护)<br>
 04常见问题及解决办法 大家分享在Cordova开发过程中遇到的各种坑以及解决办法<br>
-05经验博文(Blog from Cordova) 分享网络上Cordova相关博文<br>
+05学习和参考资料(Blog or Referance) 分享网络上Cordova相关资料<br>
 06imgs     用于提交Readme关联的图片<br>
 <br>
 #####所有站内信息一定要提交后在本页添加一个link到你对应的*.md文件上或者是Demo首页
@@ -81,7 +81,7 @@ Example: <br>
 11.[No SIM Card Installed显示2次(iOS)](https://github.com/CordovaCn/CordovaCn/blob/master/04%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3%E7%BB%8F%E9%AA%8C(Problem%26Experience)/11.No%20SIM%20Card%20Installed%20Twice(iOS).md) (@作者Ryouaki)<br>
 12.[读Cordova源代码，看看是为什么prepare/build你修改的代码](https://github.com/CordovaCn/CordovaCn/blob/master/04%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3%E7%BB%8F%E9%AA%8C(Problem&Experience)/12.%E8%AF%BBCordova%E6%BA%90%E4%BB%A3%E7%A0%81%EF%BC%8C%E7%9C%8B%E7%9C%8B%E6%98%AF%E8%B0%81%E5%B9%B2%E6%8E%89%E4%BA%86%E4%BD%A0%E4%BF%AE%E6%94%B9%E7%9A%84%E4%BB%A3%E7%A0%81.md) (@作者Ryouaki)<br>
 <br>
-##05经验博文(Blog for Cordova)<br>
+##05学习和参考资料(Blog or Referance)<br>
 01.[Cordova iOS4.1.0 Released](https://github.com/CordovaCn/CordovaCn/blob/master/05%E5%AE%98%E6%96%B9%E5%8D%9A%E6%96%87(Blog%20from%20Cordova)/02-Mar-2016%20Cordova%20iOS%204.1.0%20Released.md) (@作者Ryouaki)<br>
 02.[JavaScript学习资料](http://www.runoob.com/js/js-tutorial.html) (转@菜鸟教程)<br>
 03.[CSS学习资料](http://www.runoob.com/css/css-tutorial.html) (转@菜鸟教程)<br>
