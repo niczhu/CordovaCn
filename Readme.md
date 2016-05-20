@@ -44,7 +44,7 @@ Example: <br>
 09.[File 使用说明(文件系统)](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/09.cordova-plugin-file.md) (@作者Ryouaki)<br>
 10.[File Transfer 使用说明(文件上传下载)](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/10.cordova-plugin-file-transfer.md) (@作者Ryouaki)<br>
 11.[Geolocation 使用说明(定位)](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/11.cordova-plugin-geolocation.md) (@作者Ryouaki)<br>
-12.Globalization<br>
+12.[Globalization 使用说明(本地化)](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/12.cordova-plugin-globalization(%E7%BC%96%E8%BE%91%E4%B8%AD).md) (@作者new-xd)<br>
 13.[Inappbrowser 使用说明(应用内浏览器)](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/13.cordova-plugin-inappbrowser.md) (@作者new-xd)<br>
 14.Media<br>
 15.Media Capture<br>
