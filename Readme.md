@@ -46,8 +46,8 @@ Example: <br>
 11.[Geolocation 使用说明(定位)](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/11.cordova-plugin-geolocation.md) (@作者Ryouaki)<br>
 12.[Globalization 使用说明(本地化)](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/12.cordova-plugin-globalization.md) (@作者Ryouaki)<br>
 13.[Inappbrowser 使用说明(应用内浏览器)](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/13.cordova-plugin-inappbrowser.md) (@作者new-xd)<br>
-14.Media<br>
-15.Media Capture<br>
+14.[Media 使用说明(播放器)](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/14.cordova-plugin-media.md) (@作者Ryouaki)<br>
+15.[Media Capture 使用说明(媒体库)](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/15.cordova-plugin-media-capture.md) (@作者Ryouaki)<br>
 16.[Network Information 使用说明(网络状态)](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/16.cordova-plugin-network-information.md) (@作者Ryouaki)<br>
 17.[Splashscreen 使用说明(启动画面)](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/17.cordova-plugin-splashscreen.md) (@作者Ryouaki)<br>
 18.[Vibration 使用说明(振动)](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/18.cordova-plugin-vibration.md) (@作者Ryouaki)<br>
