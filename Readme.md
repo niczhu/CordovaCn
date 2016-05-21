@@ -90,6 +90,7 @@ Example: <br>
 05.[HTML学习资料](http://www.runoob.com/html/html-tutorial.html) (转@菜鸟教程)<br>
 06.[HTML5学习资料](http://www.runoob.com/html/html5-intro.html) (转@菜鸟教程)<br>
 07.[Ionic学习资料](http://www.runoob.com/ionic/ionic-tutorial.html) (转@菜鸟教程)<br>
+08.[JavaScript ECMAScript6](https://gank.io/post/564151c1f1df1210001c9161) (转@小问)<br>
 <br>
 ----------------------------Notes-------------------------<br>
 CordovaCn官方QQ群:38840127
