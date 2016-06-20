@@ -85,6 +85,7 @@ Example: <br>
 14.[URL的结构](https://github.com/CordovaCn/CordovaCn/blob/master/04%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3%E7%BB%8F%E9%AA%8C(Problem%26Experience)/14.URL%E7%9A%84%E7%BB%93%E6%9E%84) (转@Nodejs.org)<br>
 15.[Cordova Plugin辅助工具](https://github.com/ryouaki/pluginCreater) (@作者Ryouaki)<br>
 16.[阻止Form自动提交](https://github.com/CordovaCn/CordovaCn/blob/master/04%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3%E7%BB%8F%E9%AA%8C(Problem&Experience)/16.%E7%A6%81%E6%AD%A2form%E6%8F%90%E4%BA%A4.md) (@作者Ryouaki)<br>
+17.[Cordova热更新www目录](https://github.com/ryouaki/CordovaHotUpgrade/blob/master/README.md)  (@作者Ryouaki)<br>
 <br>
 ##05学习和参考资料(Blog or Referance)<br>
 01.[Cordova iOS4.1.0 Released](https://github.com/CordovaCn/CordovaCn/blob/master/05%E5%AE%98%E6%96%B9%E5%8D%9A%E6%96%87(Blog%20from%20Cordova)/02-Mar-2016%20Cordova%20iOS%204.1.0%20Released.md) (@作者Ryouaki)<br>
