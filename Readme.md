@@ -64,6 +64,7 @@ Example: <br>
 03.[Console Demo](https://github.com/CordovaCn/CordovaPluginsDemo) (@作者Ryouaki)<br>
 04.[Contacts Demo](https://github.com/CordovaCn/CordovaPluginsDemo) (@作者Ryouaki)<br>
 05.[Device Demo](https://github.com/CordovaCn/CordovaPluginsDemo) (@作者Ryouaki)<br>
+06.[Motion Demo](https://github.com/CordovaCn/CordovaPluginsDemo) (@作者Ryouaki)<br>
 20.[Whitelist Demo(简要Demo)](https://github.com/CordovaCn/CordovaPluginsDemo) (@作者Ryouaki)<br>
 21.[Cordova-Plugin-Photos Demo(获取多图插件)](https://github.com/ryouaki/Cordova-Plugin-Photos) (@作者Ryouaki)<br>
 22.[一个简单的前后台通信演示程序(基于JQuery+Bootstrap)](https://github.com/ryouaki/Mobile-Module-Js) (@作者Ryouaki)<br>
