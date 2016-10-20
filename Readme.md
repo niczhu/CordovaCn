@@ -90,6 +90,7 @@ Example: <br>
 16.[阻止Form自动提交](https://github.com/CordovaCn/CordovaCn/blob/master/04%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3%E7%BB%8F%E9%AA%8C(Problem&Experience)/16.%E7%A6%81%E6%AD%A2form%E6%8F%90%E4%BA%A4.md) (@作者Ryouaki)<br>
 17.[Cordova热更新www目录](https://github.com/ryouaki/CordovaHotUpgrade/blob/master/README.md)  (@作者Ryouaki)<br>
 18.[iOS-IPA-Release企业appcenter架设](http://blog.csdn.net/zrh1121/article/details/52671529)  (@作者深圳-华)<br>
+19.[解决Input type="search"移动设备弹出键盘不显示search类型键盘](https://github.com/CordovaCn/CordovaCn/blob/master/04%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3%E7%BB%8F%E9%AA%8C(Problem&Experience)/19.%E8%A7%A3%E5%86%B3Input%20type=%22search%22%E7%A7%BB%E5%8A%A8%E8%AE%BE%E5%A4%87%E5%BC%B9%E5%87%BA%E9%94%AE%E7%9B%98%E4%B8%8D%E6%98%BE%E7%A4%BAsearch%E7%B1%BB%E5%9E%8B%E9%94%AE%E7%9B%98.md) (@作者Ryouaki)
 <br>
 ##05学习和参考资料(Blog or Referance)<br>
 01.[Cordova iOS4.1.0 Released](https://github.com/CordovaCn/CordovaCn/blob/master/05%E5%AE%98%E6%96%B9%E5%8D%9A%E6%96%87(Blog%20from%20Cordova)/02-Mar-2016%20Cordova%20iOS%204.1.0%20Released.md) (@作者Ryouaki)<br>
