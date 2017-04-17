@@ -1,4 +1,4 @@
-#CordovaCn 提交规则 Ver 1.0<br>
+# CordovaCn 提交规则 Ver 1.0<br>
 
 - 01 基础知识 主要提供官方使用手册相关内容(以Android和iOS为主)<br>
 - 02 插件使用 主要提供各种插件的使用说明类文章，比如插件Readme的翻译以及api使用经验<br>
@@ -7,14 +7,14 @@
 - 05 学习和参考资料(Blog or Referance) 分享网络上Cordova相关资料<br>
 - 06 imgs     用于提交Readme关联的图片<br>
 
-#####所有站内信息一定要提交后在本页添加一个link到你对应的*.md文件上或者是Demo首页
+##### 所有站内信息一定要提交后在本页添加一个link到你对应的*.md文件上或者是Demo首页
 本站内容提交方式    标题 link(@作者XXX)<br>
 本站外内容提交方式  标题 link(转@作者XXX)<br>
 Example: <br>
 01.[GitHub上README.md教程](http://blog.csdn.net/kaitiren/article/details/38513715) (转@作者kaitiren)<br>
 02.[Github简要指南](https://github.com/CordovaCn/CordovaCn/blob/master/04%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3%E7%BB%8F%E9%AA%8C(Problem&Experience)/03.Git%E7%AE%80%E8%A6%81%E6%8C%87%E5%8D%97.md) (@作者Ryouaki)<br>
 <br>
-##01基础知识<br>
+## 01基础知识<br>
 01.[Cordova介绍](https://github.com/CordovaCn/CordovaCn/blob/master/01%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86(Basic%20Knowledge)/01.What-is-Cordova.md) (@作者ShangXinbo)<br>
 02.[Platform Support(平台支持)](https://github.com/CordovaCn/CordovaCn/blob/master/01%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86(Basic%20Knowledge)/02.Platform%20Supports(%E5%B9%B3%E5%8F%B0%E6%94%AF%E6%8C%81).md) (@作者Ryouaki)<br>
 03.[Install Cordova(Cordova的安装)](https://github.com/CordovaCn/CordovaCn/blob/master/01%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86(Basic%20Knowledge)/03Install%20Cordova(Cordova%E7%9A%84%E5%AE%89%E8%A3%85).md) (@作者Ryouaki)<br>
@@ -32,7 +32,7 @@ Example: <br>
 14.[Android WebViews](https://github.com/CordovaCn/CordovaCn/blob/master/01%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86(Basic%20Knowledge)/14.Android%20Webview(Android%E5%B5%8C%E5%85%A5%E5%BC%8FWebview).md) (@作者Ryouaki)<br>
 15.[iOS WebViews](https://github.com/CordovaCn/CordovaCn/blob/master/01%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86(Basic%20Knowledge)/15.iOS%20Webview(iOS%E5%B5%8C%E5%85%A5%E5%BC%8FWebview).md) (@作者Ryouaki)<br>
 
-#02插件使用<br>
+# 02插件使用<br>
 00.[自定义插件](https://github.com/CordovaCn/CordovaPluginsDemo/blob/master/cordova-plugin-custom/README.md) (@作者Ryouaki)<br>
 01.[Battery Status 使用说明(电源状态)](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/01.cordova-plugin-battery-status.md) (@作者Ryouaki)<br>
 02.[Camera 使用说明(照相机)](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/02.cordova-plugin-camera.md) (@作者Ryouaki)<br>
@@ -56,7 +56,7 @@ Example: <br>
 20.[Whitelist 使用说明(白名单)](https://github.com/CordovaCn/CordovaCn/blob/master/02%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8(About%20Plugin)/20.cordova-plugin-whitelist.md) (@作者Ryouaki)<br>
 21.[Cordova-Plugin-Photos (获取多图插件)](https://github.com/ryouaki/Cordova-Plugin-Photos/blob/master/README.md) (@作者Ryouaki)<br>
 <br>
-##03代码分享<br>
+## 03代码分享<br>
 *请在CordovaCn创建单独的Repository然后将连接Link到这里*<br>
 00.[自定义插件Demo](https://github.com/CordovaCn/CordovaPluginsDemo) (@作者Ryouaki)<br>
 01.[Battery Status Demo](https://github.com/CordovaCn/CordovaPluginsDemo) (@作者Ryouaki)<br>
@@ -71,7 +71,7 @@ Example: <br>
 23.[基于Hybrid的原生混合Demo(Android)，实现JS与原生相互通信](https://github.com/CordovaCn/WebviewBridge) (@作者杭州-毛毛熊)<br>
 24.[安卓应用软件自动更新Android App(Android)](https://github.com/vaenow/cordova-plugin-app-update) (@作者Vaenow)<br>
 <br>
-##04常见问题及解决办法<br>
+## 04常见问题及解决办法<br>
 01.[iOS域访问限制(statusCode==0)](https://github.com/CordovaCn/CordovaCn/blob/master/04%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3%E7%BB%8F%E9%AA%8C(Problem&Experience)/01.iOS%E5%9F%9F%E8%AE%BF%E9%97%AE%E9%99%90%E5%88%B6(Ajax%E8%AF%B7%E6%B1%82%E8%BF%94%E5%9B%9EstatusCode==0).md) (@作者Ryouaki)<br>
 02.[长按屏幕引起的提示菜单或者提示框问题](https://github.com/CordovaCn/CordovaCn/blob/master/04%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3%E7%BB%8F%E9%AA%8C(Problem%26Experience)/02.%E9%95%BF%E6%8C%89%E5%B1%8F%E5%B9%95%E5%BC%95%E8%B5%B7%E7%9A%84%E6%8F%90%E7%A4%BA%E8%8F%9C%E5%8D%95%E6%88%96%E8%80%85%E6%8F%90%E7%A4%BA%E6%A1%86%E9%97%AE%E9%A2%98.md) (@作者Ryouaki)<br>
 03.[Git简要指南](https://github.com/CordovaCn/CordovaCn/blob/master/04%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3%E7%BB%8F%E9%AA%8C(Problem%26Experience)/03.Git%E7%AE%80%E8%A6%81%E6%8C%87%E5%8D%97.md) (@作者Ryouaki)<br>
@@ -92,7 +92,7 @@ Example: <br>
 18.[iOS-IPA-Release企业appcenter架设](http://blog.csdn.net/zrh1121/article/details/52671529)  (@作者深圳-华)<br>
 19.[解决Input type="search"移动设备弹出键盘不显示search类型键盘](https://github.com/CordovaCn/CordovaCn/blob/master/04%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3%E7%BB%8F%E9%AA%8C(Problem&Experience)/19.%E8%A7%A3%E5%86%B3Input%20type=%22search%22%E7%A7%BB%E5%8A%A8%E8%AE%BE%E5%A4%87%E5%BC%B9%E5%87%BA%E9%94%AE%E7%9B%98%E4%B8%8D%E6%98%BE%E7%A4%BAsearch%E7%B1%BB%E5%9E%8B%E9%94%AE%E7%9B%98.md) (@作者Ryouaki)
 <br>
-##05学习和参考资料(Blog or Referance)<br>
+## 05学习和参考资料(Blog or Referance)<br>
 01.[Cordova iOS4.1.0 Released](https://github.com/CordovaCn/CordovaCn/blob/master/05%E5%AE%98%E6%96%B9%E5%8D%9A%E6%96%87(Blog%20from%20Cordova)/02-Mar-2016%20Cordova%20iOS%204.1.0%20Released.md) (@作者Ryouaki)<br>
 02.[JavaScript学习资料](http://www.runoob.com/js/js-tutorial.html) (转@菜鸟教程)<br>
 03.[CSS学习资料](http://www.runoob.com/css/css-tutorial.html) (转@菜鸟教程)<br>
