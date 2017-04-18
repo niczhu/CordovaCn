@@ -1,5 +1,5 @@
-#Cordova iOS 4.1.0 
-###By: Steve Gill(02 Mar 2016)
+# Cordova iOS 4.1.0 
+### By: Steve Gill(02 Mar 2016)
 [原文连接](https://cordova.apache.org/announcements/2016/03/02/ios-4.1.0.html)
 
 我们非常高兴的宣布Cordova iOS 4.1.0正式发布了.
@@ -8,12 +8,12 @@
 在新的Cordova-cli版本中,当用户使用Cordova platform add/update的时候,会将Cordova-iOS@4.1.0作为默认版本.
 如果你现在就想用iOS@4.1.0,那么在使用Cordova platform add/update的时候记得指定版本号.
 
-#####现有工程升级
+##### 现有工程升级
 ```sh
 cordova platform update ios@4.1.0
 ```
 
-#####在新项目中使用
+##### 在新项目中使用
 ```sh
 cordova platform add ios@4.1.0
 ```

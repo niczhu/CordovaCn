@@ -2,5 +2,5 @@
 
 *切记不要上传任何工程文件到此文件夹。*
 
-####工程文件上传：
+#### 工程文件上传：
 请在CordovaCn的team内创建自己的Repository。并将Repository的link添加到你对应的readme文件当中。
