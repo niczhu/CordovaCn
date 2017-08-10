@@ -70,6 +70,7 @@ Example: <br>
 22.[一个简单的前后台通信演示程序(基于JQuery+Bootstrap)](https://github.com/ryouaki/Mobile-Module-Js) (@作者Ryouaki)<br>
 23.[基于Hybrid的原生混合Demo(Android)，实现JS与原生相互通信](https://github.com/CordovaCn/WebviewBridge) (@作者杭州-毛毛熊)<br>
 24.[安卓应用软件自动更新Android App(Android)](https://github.com/vaenow/cordova-plugin-app-update) (@作者Vaenow)<br>
+25.[Cordova Plugins API Demo With Framework7](https://github.com/lovelyelfpop/Framework7-Cordova-APIDemo) (@作者lovelyelfpop)<br>
 <br>
 ## 04常见问题及解决办法<br>
 01.[iOS域访问限制(statusCode==0)](https://github.com/CordovaCn/CordovaCn/blob/master/04%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3%E7%BB%8F%E9%AA%8C(Problem&Experience)/01.iOS%E5%9F%9F%E8%AE%BF%E9%97%AE%E9%99%90%E5%88%B6(Ajax%E8%AF%B7%E6%B1%82%E8%BF%94%E5%9B%9EstatusCode==0).md) (@作者Ryouaki)<br>
