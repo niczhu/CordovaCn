@@ -1,3 +1,6 @@
+# CordovaCn 微信公众号
+![CordovaCn](https://github.com/CordovaCn/CordovaCn/blob/master/imgs/qrcode_for_gh_1b0e3a54fe90_258.jpg)
+
 # CordovaCn 提交规则 Ver 1.0<br>
 
 - 01 基础知识 主要提供官方使用手册相关内容(以Android和iOS为主)<br>
