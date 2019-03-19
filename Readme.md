@@ -1,4 +1,4 @@
-# CordovaCn 提交规则 Ver 1.0<br>
+# Cordova 技术图谱  v1.0 <br>
 
 - 01 基础知识 主要提供官方使用手册相关内容(以Android和iOS为主)<br>
 - 02 插件使用 主要提供各种插件的使用说明类文章，比如插件Readme的翻译以及api使用经验<br>
